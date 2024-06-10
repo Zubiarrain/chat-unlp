@@ -3,7 +3,6 @@ import { GoogleGenerativeAI, Content } from "@google/generative-ai";
 import { getClassAssistantContext } from '@/utils/get_context';
 
 export default async function getClassAssistantResponse(question: string, conversationHistory: Content[]) {
-    console.log('Pregunta a getClassAssistantResponse')
     const MODEL = "gemini-1.5-flash"
     const CONTEXT = await getClassAssistantContext()
     const INSTRUCTION = `
@@ -31,7 +30,6 @@ export default async function getClassAssistantResponse(question: string, conver
       const response = result.response.text()
       return response
     } catch (error) {
-      console.log({ error: 'Error interno del servidor'+error });
       return "Ocurrió un error, no se pudo procesar tu consulta"
     }
 }

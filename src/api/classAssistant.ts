@@ -4,7 +4,6 @@ import { getClassAssistantContext } from '@/utils/get_context';
 
 
 export default async function handler (req: NextApiRequest, res: NextApiResponse) {
-  console.log('Holawas')
   if (req.method === 'POST') {
     const { question, conversationHistory }: {question:string, conversationHistory: Content[]} = req.body;
     const MODEL = "gemini-1.5-flash"

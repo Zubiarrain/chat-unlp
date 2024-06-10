@@ -24,7 +24,6 @@ const ChatPage: React.FC = () => {
   if (loading || !currentChat) {
     return <p>Loading...</p>;
   }
-  console.log(id)
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-sm lg:text-xl font-bold mt-1 mb-1">{currentChat.name}</h1>
