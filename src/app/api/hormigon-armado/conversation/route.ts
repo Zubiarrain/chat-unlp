@@ -3,7 +3,7 @@ import { GoogleGenerativeAI, Content } from "@google/generative-ai";
 import { getHormigonArmadoContext } from '@/utils/get_context';
 
 async function getConversationResponse(question: string, conversationHistory: Content[]) {
-    const MODEL = "gemini-1.5-flash"
+    const MODEL = "gemini-1.5-pro"
     const CONTEXT = await getHormigonArmadoContext()
     const INSTRUCTION = `
     ### INSTRUCTION ###
