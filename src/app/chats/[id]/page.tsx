@@ -26,9 +26,9 @@ const ChatPage: React.FC = () => {
   }
   return (
     <div className="flex flex-col items-center">
-      <h1 className="text-sm lg:text-xl font-bold mt-1 mb-1">{currentChat.name}</h1>
+      <h1 className="text-sm lg:text-xl font-bold mt-1 mb-1">{currentChat.materia + ' - ' + currentChat.type}</h1>
       <div className="flex flex-1 w-full min-w-md max-w-4xl p-4">
-        <Chat chatId={currentChat.id} getAssistantResponse={currentChat.getAssistantResponse}/>
+        <Chat chatId={currentChat.id} api={currentChat.api}/>
       </div>
     </div>
   );

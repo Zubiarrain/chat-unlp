@@ -18,10 +18,10 @@ export default function ChatsPage() {
         >
           <img 
             src={chat.image} 
-            alt={chat.name} 
+            alt={chat.materia} 
             className="w-12 h-12 rounded-full mr-4"
           />
-          <span className="text-lg font-semibold">{chat.name}</span>
+          <span className="text-lg font-semibold">{chat.materia + ' - ' + chat.type}</span>
         </Link>
       ))}
     </div>

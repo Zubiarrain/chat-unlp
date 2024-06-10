@@ -5,6 +5,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import Markdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import remarkGfm from 'remark-gfm'
+import { getResponse } from '@/utils/get_response';
 
 
 /* marked.setOptions({
@@ -21,10 +22,10 @@ type Message = {
 
 type ChatT = {
     chatId:string;
-    getAssistantResponse: (question: string, conversationHistory: Content[]) => Promise<string>
+    api:string;
 }
 
-export const Chat = ({chatId, getAssistantResponse}:ChatT) => {
+export const Chat = ({chatId, api}:ChatT) => {
   const chatName = 'chat-'+chatId
   const initialMessage: Message[] = [];
   const [messages, setMessages] = useState<Message[]>(initialMessage);
@@ -48,6 +49,7 @@ export const Chat = ({chatId, getAssistantResponse}:ChatT) => {
     }
   }, [messages]);
 
+
   const handleSendMessage = async () => {
     if (input.trim()) {
 
@@ -63,7 +65,7 @@ export const Chat = ({chatId, getAssistantResponse}:ChatT) => {
 
       try {
         const conversationHistory: Content[] = messages.map(({ id, ...rest }) => rest);
-        const assistantResponse = await getAssistantResponse(input, conversationHistory);
+        const assistantResponse = await getResponse(input, conversationHistory, api);
         const modelMessage: Message = { id: chatId, role: 'model', parts: [{text:assistantResponse}] };
 
         setMessages([...updatedMessages, modelMessage]);

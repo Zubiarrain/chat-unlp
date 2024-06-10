@@ -1,14 +1,11 @@
 import React, { createContext, useState, useContext, ReactNode } from 'react';
-import { Content } from '@google/generative-ai';
-import getClassAssistantResponse from '@/services/assistants/classAssistant';
-import getQAResponse from '@/services/assistants/classQAAssistant';
-
 
 type Chat = {
   id: string;
-  name: string;
+  materia: string;
+  type: string;
   image:string;
-  getAssistantResponse: (question: string, conversationHistory: Content[]) => Promise<string>
+  api:string;
 };
 
 type ChatContextType = {
@@ -17,15 +14,12 @@ type ChatContextType = {
   setCurrentChat: (chat: Chat) => void;
 };
 
-
 const ChatContext = createContext<ChatContextType | undefined>(undefined);
 
 export const ChatProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [chats] = useState<Chat[]>([
-    {id:'1', name:'Q/A Hormigón Armado', image:'/HAI.png', getAssistantResponse:getClassAssistantResponse},
-    {id:'2', name:'Multiple Choice Hormigón Armado', image:'/HAI.png', getAssistantResponse:getQAResponse},
-    //{id:'3', name:'Q/A Materiales III', image:'/HAI.png', getAssistantResponse:getClassAssistantResponse}
-    // Añade más chats según sea necesario
+    {id:'1', materia:'Hormigón Armado', type:'Conversación',image:'/HAI.png', api:'/api/hormigon-armado/conversation'},
+    {id:'2', materia:'Hormigón Armado',type:'Multiple Choice', image:'/HAI.png', api:'/api/hormigon-armado/multiple-choice'},
   ]);
   const [currentChat, setCurrentChat] = useState<Chat | null>(null);
 

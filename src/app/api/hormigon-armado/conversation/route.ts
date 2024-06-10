@@ -1,10 +1,10 @@
-"use server"
+import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI, Content } from "@google/generative-ai";
-import { getClassAssistantContext } from '@/utils/get_context';
+import { getHormigonArmadoContext } from '@/utils/get_context';
 
-export default async function getClassAssistantResponse(question: string, conversationHistory: Content[]) {
+async function getConversationResponse(question: string, conversationHistory: Content[]) {
     const MODEL = "gemini-1.5-flash"
-    const CONTEXT = await getClassAssistantContext()
+    const CONTEXT = await getHormigonArmadoContext()
     const INSTRUCTION = `
     ### INSTRUCTION ###
     You are a helpful assistant who will help the students with their questions about the information in the context.
@@ -31,5 +31,22 @@ export default async function getClassAssistantResponse(question: string, conver
       return response
     } catch (error) {
       return "Ocurrió un error, no se pudo procesar tu consulta"
+    }
+}
+
+
+export async function POST(req: Request) {
+    if (req.method === 'POST') {
+        const { question, conversationHistory } = await req.json()
+
+        try {
+            const response = await getConversationResponse(question, conversationHistory);
+            return NextResponse.json({ response });
+        } catch (error) {
+            console.error("Error:", error); // Log detallado del error
+            return NextResponse.json({ error:'Error al procesar la solicitud' });
+        }
+    } else {
+        return NextResponse.json({ error:'Método no permitido' });
     }
 }
