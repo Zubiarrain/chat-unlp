@@ -16,15 +16,15 @@ export default function Home() {
       />
     </div>
     {/* TEXT CONTAINER */}
-    <div className="lg:h-full lg:w-4/6 flex flex-col gap-8 items-center justify-center">
+    <div className="lg:h-full lg:w-4/6 flex flex-col gap-8 items-start justify-center">
       {/* TITLE */}
-      <h1 className="text-4xl md:text-5xl font-bold">Building Solutions, Building the Future</h1>
+      <h1 className="text-4xl md:text-5xl font-bold">Tu compañero de estudio.</h1>
       {/* DESCRIPTION */}
-      <p className="md:text-xl">We work or study for at least a third of the day. I strongly believe that this should be done with great passion and enthusiasm to enjoy that part of our lives and truly be happy.
+      <p className="md:text-xl">Bienvenidos a nuestra plataforma educativa donde los alumnos pueden interactuar con modelos de lenguaje avanzados para profundizar en sus materias.
       </p>
-      <span className="italic">
-        Welcome to my personal page, the place to know me better.
-      </span>
+      <p className="italic">
+      Facilitando el aprendizaje y promoviendo la curiosidad intelectual.
+      </p>
       {/* BUTTONS */}
       <div className="w-full flex gap-4">
         <Link href="/chats">
