@@ -10,7 +10,7 @@ export default function Home() {
     <div className="h-1/2 lg:h-full lg:w-2/6 relative">
       <Image 
       className="object-contain"
-      src="/hero_4.png" 
+      src="/hero.png" 
       alt="hero image" 
       fill
       />
