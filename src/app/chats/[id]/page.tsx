@@ -15,15 +15,16 @@ const ChatPage: React.FC = () => {
 
   useEffect(() => {
     const chat = chats.find((chat) => chat.id === id);
+    if (chat) setLoading(false)
     if (chat && chat != currentChat) {
       setCurrentChat(chat);
-      setLoading(false)
     }
   }, [id]);
 
   if (loading || !currentChat) {
     return <p>Loading...</p>;
   }
+
   return (
     <div className="flex flex-col items-center">
       <h1 className="text-sm lg:text-xl font-bold mt-1 mb-1">{currentChat.materia + ' - ' + currentChat.type}</h1>
