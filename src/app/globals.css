@@ -8,6 +8,11 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+p {
+  white-space: pre-wrap; /* Preserve white space and handle new lines */
+  margin-bottom: 1em; /* Add some space between paragraphs if needed */
+}
+
 ol {
   display: block;
   list-style-type: decimal;

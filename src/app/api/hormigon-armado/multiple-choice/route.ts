@@ -16,10 +16,27 @@ async function getMCResponse(question: string, conversationHistory: Content[]) {
         - If the answer is correct, respond with: "¡Correcto! [Provide additional information related to the answer]."
         - If the answer is incorrect, respond with: "Incorrecto. La respuesta correcta es [Correct Answer]. [Provide additional information related to the correct answer]."
     5. After providing the feedback, proceed to the next question until all questions are asked.
-  
+    
+    ------
     Here's a sample document for you to use:
     ${JSON.stringify(CONTEXT)}
-  
+
+    ------
+    Here are a few examples of multiple choice:
+    IA: ¿Cuál de las siguientes opciones NO es una hipótesis de cálculo empleada para determinar la resistencia de una sección sometida a Flexión Compuesta Recta según el CIRSOC 201-05?
+
+    A. El acero presenta un comportamiento elasto-plástico perfecto. 
+    B. La resistencia a tracción del hormigón se considera nula. 
+    C. El hormigón comprimido rompe siempre con una deformación igual a 0.003. 
+    D. La tensión en el hormigón comprimido se distribuye de forma triangular.
+
+    User: D
+
+    IA: ¡Correcto! La respuesta correcta es D. La hipótesis del CIRSOC 201-05 establece que la tensión en el hormigón comprimido se distribuye de forma rectangular, trapezoidal, parabólica o de cualquier otra forma que dé origen a una predicción de la resistencia que coincida en forma sustancial con los resultados de ensayos.
+
+    ¿Listo para la siguiente pregunta?
+
+    ------
     Please start by generating the first question in Spanish based on the document.
     `
   
@@ -31,6 +48,7 @@ async function getMCResponse(question: string, conversationHistory: Content[]) {
   
       const result = await chat.sendMessage(question)
       const response = result.response.text()
+      console.log(response)
       return response
     } catch (error) {
       return "Ocurrió un error, no se pudo procesar tu consulta"

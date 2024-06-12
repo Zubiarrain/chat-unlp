@@ -1,0 +1,1317 @@
+- document: Flexion Compuesta Recta-2019
+  pages:
+    - content:
+        " \n1 \nCátedras  de Hormigón  Armado  I  y  II \nF\nFL\nLE\nEX\nXI\n\
+        IÓ\nÓN\nN \nC\nCO\nOM\nMP\nPU\nUE\nES\nST\nTA\nA \nR\nRE\nEC\nCT\nTA\nA \nV\n\
+        Vi\nic\nct\nto\nor\nri\nio\no \nH\nHe\ner\nrn\nná\nán\nnd\nde\nez\nz \nB\nBa\n\
+        al\nla\nat\nt \nFacultad de Ingeniería de la Universidad Nacional de La Plata\
+        \ \nDepartamento de Construcciones \nha \n2019 \n" 
+      page: 1
+    - content:
+        " \n2 \nFLEXIÓN  COMPUESTA  RECTA \nVictorio Hernández Balat \n1.- \n\
+        Definición \nLa flexión compuesta recta \nse presenta en piezas que cuentan\
+        \ \nal menos con un plano de simetría y \nen las que una fuerza normal \nexterior\
+        \ solicitante está contenida \nen dicho plano. La solicitación \nexterior puede\
+        \ ser representada \nmediante: un momento flector y un \nesfuerzo axial o bien\
+        \ un esfuerzo \naxial y una excentricidad (Figura \n1.1). En esos casos el eje\
+        \ neutro \nresulta normal al plano de simetría.  \nEn los casos en que la carga\
+        \ normal no está contenida en el plano de simetría o bien cuando \ndicho plano\
+        \ no existe, la existencia de esfuerzos normales excéntricos da lugar a solicitaciones\
+        \ de flexión \ncompuesta oblicua. \nUsualmente los resultados de los cálculos\
+        \ de solicitaciones están referidos al baricentro de la \nsección de hormigón.\
+        \ Este es el criterio que se seguirá de aquí en adelante tanto para solicitaciones\
+        \ \ncomo para resistencias. \n2.- \nDiagramas de Interacción \nCOMENTARIO: Como\
+        \ ya se ha comentado al estudiar otras solicitaciones, si bien no es estrictamente\
+        \ \ncorrecto, suele hacerse referencia a las “resistencias nominales” como “resistencias\
+        \ de rotura”. Como \nresulta cómodo hacerlo, y hecha la aclaración, de aquí\
+        \ en adelante se usará esta terminología pero \nteniendo en claro las diferencias\
+        \ entre unas y otras. \nLa Figura 2.1 (a) muestra la curva que forman los pares\
+        \ de resistencias nominales (Pn,Mn) \ncorrespondientes a la sección de hormigón\
+        \ armado de Figura 2.1 (b). Esta curva recibe el nombre de \ndiagrama de interacción\
+        \ en términos de resistencias nominales. Como ya se ha aclarado, de aquí en\
+        \ \nadelante se hablará indistintamente de resistencias nominales o de resistencias\
+        \ de rotura Con la \nFigura 2.1 \n(a) \n(b) \n \nPu \nMu \nPu \ne = Mu / Pu\
+        \ \nPlano de Simetría \nEje \nBaricéntrico \nFigura 1.1 \n"
+      images:
+        - flexion-compuesta-recta/Figura 1.1.png
+        - flexion-compuesta-recta/Figura 2.1.png
+      page: 2
+    - content:
+        " \n3 \naclaración anterior puede decirse que los pares de puntos internos\
+        \ a la curva representan solicitaciones \nque no llevan a la rotura de la sección\
+        \ mientras que, puntos externos resultan de existencia física \nimposible. En\
+        \ este caso particular, el gráfico corresponde a una sección con armadura simétrica.\
+        \ \nDe aquí en adelante se denominará “As” a la armadura más traccionada o menos\
+        \ comprimida y \n“A’s” a la más comprimida o menos traccionada. \nSi bien en\
+        \ la bibliografía lo más frecuente es encontrar diagramas similares a los de\
+        \ la Figura \n2.1, éstos representan sólo una parte de la curva de resistencia\
+        \ intrínseca. En las Figuras 2.2 y 2.3 se \nmuestran diagramas completos correspondientes\
+        \ a dos secciones, una de ellas con As = A’s y la otra con \nAs = 2 A’s. Como\
+        \ puede apreciarse, en el caso de la armadura simétrica la representación de\
+        \ medio \ndiagrama resulta, a los efectos prácticos, suficiente por la condición\
+        \ de simetría mientras que en el \nsegundo caso la descripción completa del\
+        \ comportamiento de la sección requiere de la graficación del \ndiagrama íntegro.\
+        \ \nLa Figura 2.3 muestra un comportamiento que puede no resultar intuitivo:\
+        \ la máxima resistencia \na tracción y a compresión, no se obtienen para cargas\
+        \ “centradas”. \nEn términos generales puede pensarse a la tracción simple y\
+        \ a la compresión simple como \nestados de flexión compuesta con excentricidad\
+        \ nula y a la flexión simple como estados de flexión \ncompuesta con carga nula\
+        \ y excentricidad infinita. En otras palabras, la flexión compuesta cubre el\
+        \ \nespectro completo de las solicitaciones normales. \n3.- \nCondición  Resistente\
+        \  Aplicada  al  Caso  de  la  Flexión  Compuesta Recta \nDe acuerdo al formato\
+        \ de resistencia adoptado por el CIRSOC 201-05 debe verificarse que: \nPu \
+        \  Pn \nMu   Mn \ndonde \nPu = resistencia axial requerida calculada para\
+        \ cargas mayoradas \nPn = resistencia axial nominal (“real”) de la sección \
+        \ \nMu = resistencia flexional requerida calculada para cargas mayoradas \n\
+        Mn = resistencia flexional nominal (“real”) de la sección  \n = Coeficiente\
+        \ de reducción de resistencia en función del tipo de rotura \nMás adelante se\
+        \ analizan con más detalle tanto la forma de obtener las resistencias requeridas\
+        \ \ncomo la manera de cuantificar los coeficientes de reducción de resistencia.\
+        \ \nFigura 2.2                                                             \
+        \      Figura 2.3 \n"
+      images:
+        - flexion-compuesta-recta/Figura 2.2.jpeg
+      page: 3
+    - content:
+        " \n4 \n4.- \nDimensionamiento y Verificación de Secciones \n4.1.- \n\
+        Generalidades \nLos problemas que pueden presentarse en la práctica diaria son\
+        \ básicamente de dos tipos: \na) \nConocidas las resistencias requeridas, adoptados\
+        \ los materiales y la sección de \nhormigón, el problema consiste en la determinación\
+        \ de las armaduras que satisfagan las \ncondiciones de seguridad requeridas.\
+        \ \nb) \nConocidos los materiales y las secciones de hormigón y de armaduras,\
+        \ el problema \nconsiste en calcular la resistencia nominal de la sección en\
+        \ estudio y, eventualmente, \ncontrastar esa resistencia con valores requeridos\
+        \ para determinar el grado de seguridad \nde la sección. \n4.2.- \nHipótesis\
+        \ \nSi se lograra reproducir en forma analítica el diagrama de interacción visto\
+        \ en el punto anterior, \npodrían resolverse todos los casos de solicitaciones\
+        \ normales rectas1. \nLlegar a expresiones que resulten prácticas para el desempeño\
+        \ diario de la profesión requiere la \nformulación de una serie de hipótesis.\
+        \ Estas hipótesis varían ligeramente entre reglamentos. A \ncontinuación se\
+        \ exponen las seis que emplea el CIRSOC 201-05 más una que debe agregarse si\
+        \ se \nquiere definir completamente un diagrama de interacción. Las seis primeras\
+        \  hipótesis son las mismas \nque se han visto al estudiar Flexión Simple. \n\
+        a) \nLas secciones inicialmente planas permanecen planas \nSe admite que las\
+        \ secciones originalmente planas permanecen planas luego de deformarse. \nEsta\
+        \ hipótesis permite, cuando existe un eje neutro, suponer que las deformaciones\
+        \ de una fibra son \nproporcionales a su distancia a dicho eje. Esta hipótesis\
+        \ es compartida por todos los reglamentos \nmodernos. Experimentalmente se ha\
+        \ demostrado que esta hipótesis se verifica muy bien en las \nsecciones no fisuradas\
+        \ mientras que resulta una aproximación razonable en las secciones fisuradas\
+        \ \ndado que en ellas siempre se produce un cierto grado de deslizamiento relativo\
+        \ entre armaduras y \nhormigón. Los resultados que surgen de la aplicación de\
+        \ esta hipótesis tienen una precisión suficiente a \nlos efectos prácticos.\
+        \ \nb) \nEl hormigón comprimido rompe siempre \ncon una deformación igual a\
+        \ 0.003 \nEn la Figura 4.2.1 se han graficado las curvas tensión \ndeformación\
+        \ para hormigones con resistencias ente 30 \ny 100 MPa. En ella se observa que:\
+        \ \na) \nAl aumentar la resistencia aumenta la \ndeformación para la que se\
+        \ produce la \nresistencia máxima \nb) \nAl aumentar la resistencia disminuye\
+        \ la \ndeformación de rotura. \nEl CIRSOC 201-05 no brinda información tan \n\
+        detallada sobre el comportamiento de los hormigones.  \nComo ya se comentó al\
+        \ estudiar propiedades de \nlos materiales, en ensayos a compresión la rama\
+        \ \ndescendente de estas curvas puede existir sólo si la \nprobeta es ensayada\
+        \ a deformación controlada \nempleando equipos sofisticados. \n1 Como se verá\
+        \ más adelante, la flexión compuesta oblicua da lugar a superficies de interacción\
+        \ en lugar de a \ndiagramas de interacción. \nFigura 4.2.1 \n(psi) \n(MPa\n\
+        ) \nf’c \n(M\nPa) \n(MPa) \n(MPa) \nf’c \n(M\nPa) \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.2.1.png
+      page: 4
+    - content:
+        " \n5 \nEn el caso de elementos flexionados la existencia de un gradiente\
+        \ de deformaciones hace que las \nfibras más deformadas recorran la rama descendente\
+        \ del diagrama sin tener que recurrir a ningún tipo de \nartificio de ensayo.\
+        \ \nSe han realizado numerosos ensayos en elementos estructurales para evaluar\
+        \ la deformación \nmáxima del hormigón en el momento de la rotura2. La Figura\
+        \ 4.2.2 muestra resultados correspondientes \na ensayos realizados sobre columnas\
+        \ (compresión y flexocompresión) y vigas de hormigón armado. \nComo se aprecia,\
+        \ para hormigones de hasta unos 60 MPa de resistencia, los valores presentan\
+        \ una \nimportante dispersión y el valor 0.003 adoptado por el CIRSOC 201-05\
+        \ resulta sobrepasado por la casi \ntotalidad de los resultados experimentales3.\
+        \  \nOtros reglamentos internacionales establecen que la deformación de rotura\
+        \ en el hormigón es de \nalrededor de 0.002 para elementos totalmente comprimidos\
+        \ y de 0.0035 para elementos flexionados. \nDesde el punto de vista práctico\
+        \ estas diferencias no tienen consecuencias significativas y el adoptar un \n\
+        valor único simplifica los cálculos. \nc) \nEl acero presenta un comportamiento\
+        \ elasto-plástico perfecto \nEsta hipótesis y la nomenclatura utilizada se \n\
+        resumen en la Figura 4.2.3.  \nDesde el punto de vista de la cuantificación\
+        \ \nde la resistencia de una sección, esta \nidealización deja del lado seguro\
+        \ dado que \ndesprecia el aumento de resistencia que \nexperimentan los aceros\
+        \ comerciales por \nencima de su límite de fluencia.  \n2 No se trata de la\
+        \ deformación a la que se produce la tensión máxima sino la deformación para\
+        \ la que rompe el \nmaterial. \n3  En general, las mayores deformaciones de\
+        \ rotura se presentan en secciones con un fuerte gradiente de \ndeformaciones\
+        \ (presencia de flexión).  \nfs \ny                                      \
+        \        u      s  \nfy \nEs \n1 \nFigura 4.2.3 \ncu = 0.003 \ncu  \n0.004\
+        \ \n0.002 \n0 \n0             10             20            30             40\
+        \             50         f’c (MPa) \nColumnas \nVigas \nFigura 4.2.2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.2.2.png
+        - flexion-compuesta-recta/Figura 4.2.3.png
+      page: 5
+    - content:
+        " \n6 \nLa hipótesis se supone válida tanto para tracción como para compresión.\
+        \ \nEsta hipótesis, no válida para los aceros de pretensado, es utilizada por\
+        \ todos los reglamentos \nmodernos y, en términos analíticos, consiste en cuantificar\
+        \ las tensiones del acero a través de \nlas siguientes expresiones: \nSi s\
+        \ < y \n \nfs = Es s \nSi s  y \n \nfs = fy \ncon \nEs = 200.000 MPa\
+        \ \nd) \nLa resistencia a tracción del hormigón se considera nula \nSi bien\
+        \ esta hipótesis conduce a resultados de resistencias que concuerdan bien con\
+        \ los valores \narrojados por ensayos, debe tenerse presente que generalizar\
+        \ su uso no siempre deja del lado \nseguro. Ya se vio al estudiar Tirantes y\
+        \ Flexión Simple que la resistencia a tracción determinaba \nla cuantía mínima\
+        \ de estos elementos. En otras palabras, si se despreciara o subestimara la\
+        \ \nresistencia a tracción en el cálculo de la carga de fisuración, el tirante\
+        \ o la viga podría presentar \nuna rotura frágil. En síntesis, la hipótesis\
+        \ debe aplicarse sólo a los efectos de determinar la \nresistencia nominal (rotura)\
+        \  de un elemento.  En cualquier caso, la tracción aportada en una \nsección\
+        \ fisurada por las pequeñas zonas por debajo del eje neutro que pudieran permanecer\
+        \ en \ntracción pero sin llegar a fisurarse resulta despreciable a los efectos\
+        \ prácticos. \ne) \nEs conocido el diagrama tensiones-deformaciones del hormigón\
+        \ \nEl tema ha sido analizado con detalle al estudiar Flexión Simple. Aquí sólo\
+        \ se recordará que \nexisten numerosos diagramas propuestos en la bibliografía\
+        \ y en diferentes reglamentos de modo \nde establecer leyes más o menos complejas\
+        \ que relacionen las deformaciones a diferentes \nniveles de la sección con\
+        \ tensiones. Esos diagramas permitirán luego cuantificar la fuerza \nresultante\
+        \ de las compresiones en el hormigón y su posición. \nEl CIRSOC 201-05 indica\
+        \ que la relación entre la tensión de compresión del hormigón y su \ndeformación\
+        \ específica se debe suponer rectangular, trapezoidal, parabólica o de cualquier\
+        \ otra \nforma que dé origen a una predicción de la resistencia que coincida\
+        \ en forma sustancial con los \nresultados de ensayos.  \nEsta hipótesis permite\
+        \ al proyectista utilizar una gran variedad de \nexpresiones que vinculan deformaciones\
+        \ con tensiones en el hormigón, en particular, abre la \npuerta al uso del diagrama\
+        \ que se verá en el párrafo siguiente y que resulta extremadamente \npráctico\
+        \ y conduce a resultados suficientemente precisos.  \nf) \nPara el CIRSOC 201-05,\
+        \ los requerimientos del punto anterior son satisfechos por un diagrama \ncon\
+        \ una distribución de tensiones uniforme cuyos detalles son los siguientes (Figura\
+        \ 4.2.4): \n \nLas compresiones en el hormigón adoptan una distribución uniforme\
+        \ con valor 0.85 f’c \n \nEl bloque de tensiones está limitado superiormente\
+        \ y lateralmente por los bordes de la \nsección de hormigón e inferiormente\
+        \ por una línea recta paralela al eje neutro de \ndeformaciones. \nFigura 4.2.4\
+        \ \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.2.4.png
+      page: 6
+    - content:
+        " \n7 \n \nLa altura “a” del bloque de tensiones es igual a “1 c” donde\
+        \ “c” es la profundidad del eje \nneutro de deformaciones y: \n1 = 0.85   \
+        \                                      \nsi    f’c  30 MPa \n1 = 0.85 - 0.05\
+        \ (f’c - 30 MPa) / 7     0.65 \nsi    f’c > 30 MPa\ng) \nHipótesis adicional\
+        \ \nTal como se verá en el punto siguiente, para el trazado de los diagramas\
+        \ de interacción resulta \nde gran utilidad definir una deformación máxima \
+        \ o de rotura para el acero. A los fines prácticos los \nresultados de los cálculos\
+        \ no son muy sensibles al valor que se adopta para esta deformación. De hecho\
+        \ \nhay reglamentos que adoptan valores que van del 5 al 10%. Las normas IRAM\
+        \ y el CIRSOC 201-05 \nestablecen que los aceros que se emplean en hormigones\
+        \ no pretensados deben tener una deformación \nmínima de rotura del 6% para\
+        \ mallas electrosoldadas y del 12% para barras. A los efectos de los \ncálculos\
+        \ de resistencia puede adoptarse, por ejemplo, un valor de 10%. \n4.3.- \nPlanos\
+        \ Límite \nEn la Figura 4.3.1 se muestra un diagrama que representa (con alguna\
+        \ salvedad que se comenta \nmás adelante) la posición de los posibles planos\
+        \ de rotura que propone el CIRSOC 201-05.  \nEstos planos, que en realidad también\
+        \ constituyen una hipótesis de cálculo, limitan sectores que \nse denominan\
+        \ dominios. Los dominios se obtienen haciendo pivotar planos de rotura entre\
+        \ dos planos \nlímite. En el caso de la Figura 4.3.1 existen dos dominios indicados\
+        \ como 1 y 2.  En Flexión Simple se \nestudió sólo el Dominio 1. \nSi se conocen\
+        \ (se adoptan) los posibles planos de deformación que conducen a situaciones\
+        \ de \nrotura y los diagramas tensión-deformación de los materiales hormigón\
+        \ y acero son conocidos, se estará \nen condiciones de calcular las resultantes\
+        \ internas de fuerzas y momentos y por lo tanto podrá calcularse \nen forma\
+        \ analítica la resistencia de cualquier sección. \nPara el CIRSOC 201-05 todos\
+        \ los planos que interesan para el cálculo y verificación de \nsecciones en\
+        \ Flexión Simple y Compuesta pivotan alrededor del punto “A” (deformación en\
+        \ el hormigón \nde 0.003). Dado que el reglamento no considera la posibilidad\
+        \ de pivotar alrededor del punto “B”, \ntampoco hace referencia al valor que\
+        \ debería adoptarse para su. Como ya se ha comentado, puede \nadoptarse, a\
+        \ los fines prácticos un valor del 10% para dicha deformación. La necesidad\
+        \ de pivotar \nalrededor del punto “B” surge porque de otra manera no puede\
+        \ describirse el comportamiento global de \nla sección llegando hasta la tracción\
+        \ centrada. (línea “f” en la Figura 4.3.1). \nDebe quedar completamente claro\
+        \ que estos planos no representan la realidad física de las \nposibles situaciones\
+        \ de rotura que podrá presentar la sección y que no permiten recorrer el \n\
+        comportamiento de la misma para acciones crecientes hasta la rotura. Sólo permiten\
+        \ predecir \nrazonablemente la resistencia de la sección. \nFigura 4.3.1 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.3.1.png
+      page: 7
+    - content:
+        " \n8 \n4.4.- \nCalculo de las Resistencias Nominales Pn y Mn de una\
+        \ sección dada \nLa construcción de un diagrama de interacción se hace a partir\
+        \ del conocimiento de la geometría \ny materiales que componen una sección,\
+        \ dando diferentes posiciones a la sección transversal deformada \ny calculando\
+        \ para cada posición las resultantes internas “Pn” y “Mn”. Como ya se ha dicho,\
+        \ estas \nposiciones no son arbitrarias y se logran pivotando el plano de deformación\
+        \ alrededor de los puntos “A” y \n“B”. \nLas Figuras 4.4.1 y 4.4.2 muestran,\
+        \ de acuerdo a las hipótesis del CIRSOC 201-05, algunos \npuntos significativos\
+        \ de un diagrama de interacción correspondiente a una sección rectangular con\
+        \ \narmadura simétrica en términos de valores nominales y los valores que toma\
+        \ “” de acuerdo al estado de \ndeformaciones de la sección. \nTal como se ha\
+        \ visto al estudiar \nFlexión Simple, los valores de “” \ndependen de la deformación\
+        \ de la \narmadura más traccionada (Figura \n4.4.3). \nSi \nbien \nen \nlos\
+        \ \npárrafos \nsiguientes \nse \nhará \nreferencia \nprincipalmente \na \nsecciones\
+        \ \nrectangulares, los conceptos generales \nson válidos para secciones de forma\
+        \ \ncualquiera. \nMás adelante se entrará un \npoco más en detalle sobre el\
+        \ cálculo de \nlas \nresultantes \nen \nlos \ndiferentes \nmateriales y sobre\
+        \ la posición de la resultante en el hormigón. \n4.5.- \nDiagramas   Pn - \
+        \ Mn   \nEn un punto anterior se expresó que la condición resistente que exige\
+        \ el CIRSOC 201-05 está \ndada por: \nPu   Pn \nMu   Mn \nFigura 4.4.1 \
+        \                                                          Figura 4.4.2 \nFigura\
+        \ 4.4.3 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.4.1.png
+        - flexion-compuesta-recta/Figura 4.4.3.jpeg
+      page: 8
+    - content:
+        " \n9 \nEsto quiere decir que, para que un diagrama de interacción resulte\
+        \ útil a los fines prácticos, debe \nestar expresado no en términos de Pn-Mn\
+        \  sino como relaciones  Pn -  Mn. De esta forma la \ncomparación de las resistencias\
+        \ reducidas con las resistencias requeridas para cargas mayoradas \nresulta\
+        \ directa. Por este motivo la mayoría de las ayudas de cálculo (tablas y gráficos)\
+        \ se realizan para \nesfuerzos nominales afectados por el factor de reducción\
+        \ de resistencia correspondiente a cada estado \nde deformación.  \nEn la Figura\
+        \ 4.5.1 se han representado en un mismo gráfico y las curvas Pn-Mn y  Pn -\
+        \  Mn \ncorrespondientes a una sección dada. Se trata de una sección con armadura\
+        \ simétrica y con estribos \nsimples. En términos generales puede decirse que\
+        \ la parte de la curva correspondientes a \ndeformaciones de la armadura más\
+        \ \ntraccionada menores que 0.002 (el \nCIRSOC 201-05 admite el uso de \neste\
+        \ \nvalor \naunque \nmás \najustadamente debería tomarse y) \nha sido “escalada”\
+        \ por un factor \n0.65 mientras que la parte que \ncorresponde a valores mayores\
+        \ que \n0.005 ha sido afectada por un factor \n0.90. \nPara \ndeformaciones\
+        \ \nintermedias se ha aplicado un \ncoeficiente \nde \nreducción \nde \nresistencia\
+        \ \nvariable \nentre \nlos \nvalores anteriores. \nPara obtener una curva de\
+        \ \nuso \npráctico \ndentro \nde \nlo \nespecificado por el CIRSOC 201-05 \n\
+        falta todavía un paso. \nTal como se vio al estudiar columnas, el CIRSOC 201-05\
+        \ impone limitaciones a la carga axial \nque puede resistirse con una determinada\
+        \ armadura. Estas limitaciones se han introducido para \ncontemplar excentricidades\
+        \ mínimas del orden de 0.10 y 0.05 de “h” respectivamente para columnas \nrectangulares\
+        \ simples y zunchadas (aproximación válida para columnas rectangulares de altura\
+        \ “h”, \narmaduras simétricas y recubrimientos usuales) \nPara \nColumnas \n\
+        Simples \nesta \nlimitación se expresa como: \n Pn(máx) = 0.65x0.80 [ 0.85\
+        \ f’c (Ag - \nAst) + fy Ast] \nPara \nColumnas \nZunchadas \nla \nlimitación\
+        \ adquiere la forma: \n Pn(máx) = 0.70x0.85 [ 0.85 f’c (Ag - \nAst) + fy Ast]\
+        \ \nLa Figura 4.5.2 muestra un \ndiagrama correspondiente a una \nsección rectangular\
+        \ con armadura \nsimétrica y estribos simples. En el \ndiagrama se han indicado\
+        \ algunos \npuntos característicos (en términos \nde tensiones y deformaciones\
+        \ en \nlas armaduras). En él se ha \nincorporado también la limitación \nen\
+        \ las compresiones y se han \nindicado las zonas en las que el \ncoeficiente\
+        \ de reducción de resistencia es constante. \nFigura 4.5.1 \nFigura 4.5.2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.5.1.jpeg
+        - flexion-compuesta-recta/Figura 4.5.2.png
+      page: 9
+    - content:
+        " \n10 \nEn la Figura 4.5.3 se muestran \nresultados experimentales obtenidos\
+        \ \npara diferentes resistencias medias de \nhormigones. Las posiciones de los\
+        \ \npuntos ubican respecto a la dispersión \npropia de resultados. Asimismo\
+        \ puede \nconsiderarse que las predicciones \nresultan razonables dentro del\
+        \ rango \nde \nresistencias \nde \nhormigones \nespecificado \npor \nel \nReglamento\
+        \ \nCIRSOC 201-05 (entre 20 y 60 MPa). \nLa bibliografía indica que para \n\
+        hormigones de más de 55 a 60 MPa \ndebe modificarse la forma del bloque \nequivalente\
+        \ de compresiones en el \nhormigón. \n4.6.- \nCálculo  Práctico  de  Armaduras\
+        \    \n4.6.1.- Generalidades  \na) \nDimensionamiento y Verificación de Secciones\
+        \ \nEn la Figura 4.6.1.1 se muestra un tanque de reserva de agua ya construido\
+        \ cuya seguridad se \ndesea verificar. Su fuste está constituido por una sección\
+        \ circular hueca de hormigón armado. \nLa sección más solicitada del fuste se\
+        \ encuentra en el contacto con la fundación donde las \nfuerzas axiales de compresión\
+        \ solicitantes mayoradas varían entre “Pu1” para tanque vacío y “Pu2” para \n\
+        tanque lleno y los momentos solicitantes mayorados varían entre cero cuando\
+        \ no sopla viento y “Mu1” \npara el viento máximo de diseño. \nEn la Figura\
+        \ 4.6.1.2 se muestra el diagrama de interacción correspondiente a la sección\
+        \ en \nestudio. El rectángulo en trazo más grueso indica el ámbito de variación\
+        \ de las combinaciones de \nacciones. Como puede apreciarse, parte de este rectángulo\
+        \ se encuentra por fuera del diagrama de \ninteracción alertando sobre la existencia\
+        \ de combinaciones de cargas que presentan seguridades \ninadecuadas (no puede\
+        \ hablarse de situaciones de falla). \n Pn \n Mn \nFigura 4.6.1.2 \nMu1 \n\
+        Pu2 \nPu1 \nSección \nFuste \nFigura 4.6.1.1 \nFigura 4.5.3 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.5.3.png
+        - flexion-compuesta-recta/Figura 4.6.1.1.png
+        - flexion-compuesta-recta/Figura 4.6.1.2.png
+      page: 10
+    - content:
+        " \n11 \nSi el problema fuera inverso y se estuviera \ndimensionando\
+        \ \nlas \narmaduras, \nla \nsituación \nmás \ndesfavorable (mayor armadura)\
+        \ correspondería a la \ncombinación de acciones dada por “Pu2” y “Mu1”. En este\
+        \ \ncaso particular se trata de la combinación del máximo \nesfuerzo axial con\
+        \ el máximo momento. \nEs muy importante tener presente que no \nsiempre la\
+        \ combinación del máximo esfuerzo axial y el \nmáximo \nmomento \nconduce \n\
+        a \nla \nsituación \nmás \ndesfavorable Esto puede apreciarse en la combinación\
+        \ \nde acciones indicada en la Figura 4.6.1.3 donde el par de \nvalores “Pu1-Mu2”\
+        \ resulta determinante. \nEl \nconocer \nlos \nvalores \nextremos \nde \nlas\
+        \ \nsolicitaciones puede no ser información suficiente para \ndimensionar o\
+        \ verificar una sección dado que se debe \ntener muy presente que siempre deben\
+        \ analizarse todas \nlas solicitaciones posibles que sean concomitantes \n(simultáneas).\
+        \ Si bien en el caso del tanque cualquier \ncombinación de solicitaciones comprendida\
+        \ dentro del rectángulo es posible, existen numerosos casos \nprácticos en que\
+        \ esto no es así. Más adelante se volverá sobre este tema. \nA diferencia de\
+        \ otras solicitaciones como la Tracción Simple, la Compresión Simple y la Flexión\
+        \ \nSimple, en Flexión Compuesta no siempre resulta evidente cual es la combinación\
+        \ de acciones que \nconduce a las máximas armaduras.  \nb) \nDimensionamiento.\
+        \ Posibles Abordajes  \nUna vez conocida la geometría de la sección de hormigón\
+        \ y la calidad de los materiales, el \ncálculo de armaduras en flexión compuesta\
+        \ puede realizarse siguiendo alguno de los siguientes \nprocedimientos: \n\
+        \ \nPor iteración,  recorriendo “todos” los planos límites para cuantías crecientes\
+        \ de armaduras \nhasta llegar a una cantidad y distribución de armaduras que\
+        \ sea capaz de equilibrar las \nsolicitaciones con la seguridad requerida. Se\
+        \ trata de un procedimiento sencillo pero \nlaborioso que sólo puede ser abordado\
+        \ con un consumo de tiempo razonable con ayuda de \nuna computadora (p.e. utilizando\
+        \ una planilla de cálculo). \n \nMediante ábacos o tablas. Estos auxiliares\
+        \ de cálculo tienen como limitaciones el hecho de \nestar desarrollados para\
+        \  formas fijas de secciones transversales (rectangulares, circulares, \netc.)\
+        \ y valores fijos de resistencias de los hormigones (sólo en el caso del ACI\
+        \ 318 y el \nCIRSOC 201-05), aceros, recubrimientos y configuraciones de armaduras.\
+        \ \n \nMediante expresiones aproximadas de cálculo directo de armaduras. Si\
+        \ bien para otros \nreglamentos (p.e. norma española EHE) están disponibles\
+        \ expresiones suficientemente \nexactas y a la vez prácticas, ni el ACI 318\
+        \ ni el CIRSOC 201-05 proponen expresiones al \nrespecto. Más adelante se proponen\
+        \ expresiones sólo válidas para secciones rectangulares \ncon armaduras simétricas.\
+        \ \n \nMediante programas de cálculo. En la actualidad la mayor parte de los\
+        \ programas \ncomerciales que calculan solicitaciones en estructuras también\
+        \ son capaces de hacer el \ndimensionamiento de secciones. Existen otros programas\
+        \ comerciales (p.e. spcolumn) y \notros gratuitos (p.e. CIRSOC_FLEX) que permiten\
+        \ tanto el dimensionamiento como la \nverificación de secciones. \n4.6.2.- Diagramas\
+        \ de Interacción  \n4.6.2.1.- \nDiagramas para Esfuerzos Reducidos (Ábacos)\
+        \ \nEl uso de diagramas de interacción para esfuerzos reducidos, comúnmente\
+        \ conocidos como \nábacos (Figura 4.6.2.1), ha sido uno de los procedimientos\
+        \ más utilizados en el pasado para el \ndimensionamiento y verificación de secciones\
+        \ en flexión compuesta. Aún se los sigue empleando sobre \n Pn \n Mn \nFigura\
+        \ 4.6.1.3 \nMu1 \nPu2 \nPu1 \nMu2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.1.3.png
+      page: 11
+    - content:
+        " \n12 \ntodo cuando no se cuenta con expresiones de cálculo directo\
+        \ para el problema en estudio o bien cuando \nlas herramientas informáticas\
+        \ necesarias no se encuentran disponibles.  \nExisten numerosos ábacos desarrollados\
+        \ para reglamentos europeos pero muy pocos para el \nACI 318 y el CIRSOC 201-05.\
+        \ Algunos de ellos pueden bajarse gratuitamente en el sitio web del \nCIRSOC.\
+        \ Una importante variedad se encuentra en el “Manual de Cálculo de Hormigón\
+        \ Armado” \npublicado por Gerdau-AZA (gratuito disponible en pdf). En el Apéndice\
+        \ que se encuentra al final de este \ndocumento pueden encontrarse algunos ábacos\
+        \ válidos para f’c ≤ 30 MPa y fy = 420 MPa. \nExisten dos formatos de diagramas\
+        \ de acuerdo a lo que grafiquen sus ejes: \na) \nPara \nesfuerzos \nreducidos\
+        \ \ndimensionales (MPa) :      Pn / (b h)      y      \n  Mn / (b\
+        \ h2) \nb) \nPara \nesfuerzos \nreducidos \nadimensionales: : pn =   Pn /\
+        \ (f’c b h)   y     \nmn =  Mn / (f’c b h2) \nLa existencia del coeficiente\
+        \ “1” \nvariable con la resistencia del hormigón \ncomplica, en el caso del\
+        \ ACI 318 y del \nCIRSOC 201-05 el desarrollo ábacos válidos \npara cualquier\
+        \ resistencia de hormigón. En \nrigor \nhabría \nque \nhacer \nun \nábaco \n\
+        correspondiente a un tipo de sección y \nrecubrimiento \npara \ncada \nresistencia\
+        \ \nde \nhormigón. Los hormigones con resistencias \nmenores a 30 MPa comparten\
+        \ un valor de \n“1” igual a 0.85 lo que permite desarrollar \nábacos que sean\
+        \ válidos para todas las \nresistencias iguales o menores a 30 MPa. \nComo ya\
+        \ se ha expresado, este es el caso de \nlos ábacos que se agregan en el Apéndice.\
+        \ \nLos ábacos se construyen siguiendo \nel mismo procedimiento que se ha visto\
+        \ para \nel trazado de una curva de interacción \n(recorrido de planos límites)\
+        \ pero, para darles \ngeneralidad se recurre a: \na) En los ábacos adimensionales\
+        \ en \nlugar de graficar “ Pn” y “ Mn” se \nemplean parámetros adimensionales:pu\
+        \ = pn =   Pn / (f’c b h)      y     mu =  mn =  Mn / (f’c b \nh2) \n\
+        De esta forma el ábaco resulta independiente de las dimensiones de la sección\
+        \ y de la \nresistencia del hormigón. El aspecto que presentará el ábaco será\
+        \ similar al que muestra la \nFigura 4.6.2.1. En él se han indicado una gran\
+        \ cantidad de curvas representativas de las \ndiferentes cuantías de armaduras.\
+        \  \nb) Dado que el comportamiento de las secciones varía con el recubrimiento,\
+        \ se los debe ejecutar \npara relaciones fijas de “d’/h” (recubrimiento al eje\
+        \ de las armaduras / altura total de la sección). \nc) Como ya se ha dicho,\
+        \ en el esquema del CIRSOC 201-05, dado que el coeficiente “1” que \nrelaciona\
+        \ la profundidad del eje de tensiones con la profundidad del eje de deformaciones\
+        \ varía \ncon la calidad del hormigón se deben hacer ábacos para diferentes\
+        \ calidades de hormigones. \nYa se ha expuesto que pueden unificarse los ábacos\
+        \ para resistencias menores que 30 MPa \ndado que en este rango de resistencias,\
+        \ “1” permanece constante e igual a 0.85. \nd) Si se utilizan aceros de muy\
+        \ diferentes calidades se debe hacer, para cada situación, un ábaco \npor cada\
+        \ resistencia de acero. Si el rango de variación es relativamente pequeño (p.e.\
+        \ aceros \nentre 420 y 500 MPa) suele ser suficiente hacer un ábaco para una\
+        \ situación intermedia y \nexpresar las curvas de interacción en función de\
+        \ la cuantía mecánica (w =  fy / f’c). Debe \nprestarse atención si los gráficos\
+        \ que se están empleando están realizados en términos de \ncuantías mecánicas\
+        \ o de cuantías geométricas  ( = As / Ac). \nDiagrama de Interacción\nSección\
+        \ Rectangular - Armadura Simétrica\n-2\n-1\n0\n1\n2\n0.0\n0.1\n0.2\n0.3\n0.4\n\
+        0.5\n0.6\n0.7\n0.8\nmu  = Mn / (b h2 f'c)\npu =  Pn / (b h f'c)\n =cte \n\
+        Figura 4.6.2.1 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.2.1.png
+      page: 12
+    - content:
+        " \n13 \nEl uso de este tipo de ábacos es muy sencillo (Figura 4.6.2.1).\
+        \ Conocidos “pu” y “mu” se “lee” (en \ngeneral se requiere algún nivel de interpolación\
+        \ visual) directamente la cuantía sobre una de las curvas \ndel gráfico. Los\
+        \ ábacos también sirven para la verificación de secciones dado que conocida\
+        \ la cuantía se \npueden “leer” todas las combinaciones de solicitaciones que\
+        \ pueden ser resistidas. \nLos ábacos que se encuentran en la bibliografía y\
+        \ los del Apéndice están desarrollados siguiendo \nel mismo criterio visto al\
+        \ estudiar columnas, es decir, considerando que las armaduras comprimidas \n\
+        desalojan hormigón comprimido. Una forma simple de tener esto en cuenta es no\
+        \ descontar el área de \nhormigón ocupada por las barras y en cambio restar\
+        \ de la tensión real de las barras comprimidas el valor \n0.85 f’c. \n4.6.2.2.-\
+        \ \nVerificación  de  Secciones \nComo ya se ha comentado, para poder determinar\
+        \ si una o varias combinaciones de \nsolicitaciones pueden ser resistidas por\
+        \ una sección predeterminada (materiales, geometría, etc.) se \nrecurre bien\
+        \ a un diagrama disponible o bien a trazar el diagrama de interacción correspondiente\
+        \ a dicha \nsección y a graficar posteriormente el o los pares de valores de\
+        \ solicitaciones en estudio. Dependiendo \nde que los puntos resulten internos\
+        \ o externos al espacio comprendido entre el diagrama de interacción y \nlos\
+        \ ejes, las solicitaciones contarán con seguridad suficiente o insuficiente.\
+        \ \nSi para la sección en estudio existieran ábacos de dimensionamiento, esos\
+        \ mismos ábacos \npodrían utilizarse para su verificación. Si este no fuera\
+        \ el caso, habrá que desarrollar un diagrama de \ninteracción. \nDe acuerdo\
+        \ al reglamento de referencia que se utilice, los diagramas de interacción pueden\
+        \ \npresentar aspectos ligeramente diferentes pero los conceptos que se emplean\
+        \ en su desarrollo son \nbásicamente los mismos.  \nEl trazado del diagrama\
+        \ de interacción puede hacerse con todo rigor o en forma aproximada \ntomando\
+        \ segmentos de recta que unan puntos significativos pertenecientes al diagrama\
+        \ “exacto”. \nEn las Figuras 4.6.2.2.1 y 4.6.2.2.2 pueden verse diagramas de\
+        \ interacción “exactos” (líneas \ncontinuas) y aproximados (líneas de puntos)\
+        \ realizados para diferentes hormigones y cuantías y para \nf’c = 20 MPa \n\
+        d’/h = 0.15 \nf’c = 50 MPa \nd’/h = 0.15 \n1 \n2 \n3 \n4 \n5 \n6 \n1 \n2 \n\
+        3 \n4 \n5 \n6 \n7 \n7 \n = 0.008 \n = 0.008 \n = 0.001 \n = 0.001 \nc\n\
+        u\nbhf\nP\n'\nc\nu\nbhf\nP\n'\nc\nu\nf\nbh\nM\n'\n2\nc\nu\nf\nbh\nM\n'\n2\n\
+        Figura 4.6.2.2.1 \nFigura 4.6.2.2.2 \nA \nB \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.2.2.1.png
+        - flexion-compuesta-recta/Figura 4.6.2.2.2.png
+      page: 13
+    - content:
+        " \n14 \nrecubrimientos relativamente importantes (d’/h = 0.15). Se aprecia\
+        \ que el acuerdo entre los diagramas \n“exactos” y aproximados  es bueno y que\
+        \ las diferencias se encuentran del lado de la seguridad4. \nCon referencia\
+        \ a la Figura 4.6.2.2.2 podremos decir que, si la sección está armada con una\
+        \ \ncuantía geométrica total  “ = 0.008”, el punto “A” presenta una seguridad\
+        \ suficiente (probablemente \nexcesiva) y que el punto “B” presenta una seguridad\
+        \ insuficiente. \nSiguiendo la nomenclatura de la Figura 4.2.4, tomando momentos\
+        \ respecto al centro de la \nsección de hormigón y considerando positivos los\
+        \ brazos de palanca medidos desde dicho punto hacia la \narmadura A’s y los\
+        \ esfuerzos de compresión, las coordenadas de los puntos 1 a 6 pueden obtenerse\
+        \ de \nla siguiente forma: \na) \nResultantes debidas al hormigón:    Fc = 0.85\
+        \ f’c b a;       ec = h/2 – a/2;         Mc = Fc x ec \nb) \nResultantes debidas\
+        \ a A’s:               ’s = 0.003 (c – d’) / c \nf’s = mínimo (’s x Es ; fy)\
+        \   (respetando el signo) \nComo en el caso de columnas, correspondería restar\
+        \ a la \ntensión de cualquier armadura comprimida el valor 0.85 f’c \nde modo\
+        \ de considerar que las barras de acero \ncomprimidas están desalojando hormigón\
+        \ comprimido. \nF’s = A’s x f’s  ;    M’s = F’s (h/2 – d’) \nc) \nResultantes\
+        \ debidas a As:                 s = mínimo (s x Es ; fy)   (respetando el\
+        \ signo) \nFs = As x fs  ;    Ms = - Fs (h/2 – d’) \nPara un caso de armaduras\
+        \ simétricas habría que considerar como mínimo los siguientes puntos: \nPunto\
+        \ “1”:   \nCompresión simple. \nc =    ;    a = h  ;     = 0.65 ó 0.75 según\
+        \ corresponda \nPunto “2”: \nc = 0.003 ;   s = 0 ;   c = d ;   a = 1 d ;\
+        \    = 0.65 ó 0.75 según corresponda \nPunto “3”: \nc = 0.003 ;   s = y\
+        \ = fy / Es ;   c = d  0.003 / (0.003 + y) ;   a = 1 c  ;    = 0.65 ó 0.70\
+        \ \nsegún corresponda \nPunto “4”:\nc = 0.003 ;   s = 0.005 ;   c = 0.375\
+        \ d ;   a = 1 d  ;    = 0.90 \nPunto “5”:  \nc = 0.003 ;   s = su ;   c\
+        \ = d  0.003 / (0.003 + su) ;   a = 1 d  ;    = 0.90 \nPunto “6”: \nTracción\
+        \ Simple.  = 0.90 \nEn las expresiones anteriores “Es” es el módulo de elasticidad\
+        \ del hormigón que, según el \nCIRSOC 201-05, debe tomarse igual a 200.000 MPa.\
+        \ \nTambién se ha graficado la horizontal correspondiente al 80% de la resistencia\
+        \ a compresión \nsimple establecida como límite en el CIRSOC 201-05. \nLa experiencia\
+        \ demuestra que el punto “5”  puede ser omitido sin modificar significativamente\
+        \  el \naspecto de los diagramas dado que dicho punto se ubica sobre una línea\
+        \ que es, a los efectos prácticos, \nuna recta que une los puntos “4” y “6”.\
+        \ Asimismo, el punto “2” puede omitirse sin cometer grandes \nerrores del lado\
+        \ de la seguridad cuando se trabaja con hormigones de hasta 35 MPa. \n4.6.3.-\
+        \ Expresiones Aproximadas propuestas por la Cátedra \nSe propone a continuación\
+        \ una expresión aproximada y una serie de coeficientes que permiten \ncalcular\
+        \ armaduras simétricas (As = A’s) en secciones rectangulares. Los coeficientes\
+        \ fueron calibrados \npara recubrimientos “d’” medidos a eje de barra iguales\
+        \ a 0.05 y 0.10 de la altura total “h” de la sección. \nLas expresiones son\
+        \ válidas para hormigones de hasta f’c = 30 MPa y para aceros de fy = 420 MPa.\
+        \  \nLa nomenclatura a emplear es la siguiente:  \npu =: pn =   Pn / (f’c\
+        \ b h)   y  mu =   mn =  Mn / (f’c b h2) \nw = As x fy / (b x h x f’c) = A’s\
+        \ x fy / (b x h x f’c) \n4 Esto se debe a que los diagramas “exactos” tienen\
+        \ curvaturas suaves con el centro de curvatura ubicado hacia el \ninterior del\
+        \ diagrama. \n" 
+      page: 14
+    - content:
+        " \n15 \nLa expresión propuesta es: \nw = k1 + k2 mu\n2 + k3 mu + k4\
+        \  pu\n2 + k5 pu \nEn la Tabla 4.6.3 se encuentran los coeficientes para la\
+        \ aplicación de la fórmula anterior. \nd’ / h \npu \nk1 \nk2 \nk3 \nk4 \nk5\
+        \ \n0.05 \npu ≥ 0.245 \n-0.29059 \n-0.28606 \n2.0282 \n0.20176 \n0.41181 \n\
+        0.245 <  pu < 0.22 \n-1.13521 \n-0.39767 \n1.81509 \n-8.43645 \n6.11543 \npu\
+        \  ≤ 0.22 \n0 \n-0.00604 \n1.24465 \n0.03541 \n-0.51542 \n0.10 \npu  ≥ 0.23\
+        \ \n-0.30709 \n-0.49646 \n2.36001 \n0.21449 \n0.40241 \n0.23 <  pu < 0.22 \n\
+        -8.12793 \n0.29614 \n1.75652 \n-139.7511 \n66.92792 \npu  ≤ 0.22 \n0 \n0.0237\
+        \ \n1.38226 \n0.01464 \n-0.53781 \nTabla 4.6.3 \nPara que se verifique la condición\
+        \ vista en columnas:  \nPu máx. = 0.65 x0.80x (0.85 f’c b h + 2 As (fy – 0.85\
+        \ f’c))   \nOperando se llega a que debe cumplirse que: \nw ≥ (pu/1.04 -0.425)\
+        \ / (1 – 0.85 f’c /fy) \nLas expresiones anteriores pueden programarse en planillas\
+        \ de cálculo muy simples. Para \nvalores intermedios de recubrimiento puede\
+        \ interpolarse linealmente entre los resultados obtenidos para \nlos recubrimientos\
+        \ que figuran en la Tabla 4.6.3. No es válido extrapolar. \nPara cada recubrimiento\
+        \ se dan tres límites de axial reducido. Puede suponerse que por encima \ndel\
+        \ primer límite las roturas se producen con la armadura más traccionada o menos\
+        \ comprimida con una \ndeformación menor a la de fluencia por tracción. Para\
+        \ valores por debajo del tercer límite puede \nsuponerse que las roturas se\
+        \ producen con la armadura más traccionada deformada más de 0.005. \nEn las\
+        \ Figuras 4.6.3.1 y 4.6.3.2 se muestra el ajuste de las fórmulas para un hormigón\
+        \ de 20 \nMPa de resistencia especificada y cuantías usuales en columnas. \n\
+        Figura 4.6.3.1                                                             \
+        \      Figura 4.6.3.2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.3.1.png
+      page: 15
+    - content:
+        " \n16 \n4.6.4.- Armadura Asimétrica \n4.6.4.1.- \nGeneralidades \nLas\
+        \ secciones circulares macizas o huecas sólo excepcionalmente presentan arreglos\
+        \ de armaduras \nasimétricos. Las secciones rectangulares se arman muy frecuentemente\
+        \ en forma simétrica \nargumentando: \na) \nRazones económicas: \na.1) Cuando\
+        \ las excentricidades en compresión o tracción son \npequeñas  un cálculo con\
+        \ armaduras asimétricas conducirá \na armaduras “As” y “A’s” muy parecidas.\
+        \ En estos casos la \ncomplicación constructiva no justifica el ahorro que se\
+        \ \nobtiene en la armadura total. \na.2) Cuando pueden presentarse momentos\
+        \ solicitantes que \ncambien de signo y tengan aproximadamente el mismo \nvalor\
+        \ absoluto \nb) \nRazones constructivas:   \nb.1) Cuando no dándose ninguno\
+        \ de las situaciones anteriores \nse quiera simplificar la construcción o se\
+        \ sospeche que, de \nutilizarse armaduras diferentes, en obra, por error, podrían\
+        \ \nser colocadas invertidas \nb.2) Cuando las solicitaciones a lo largo de\
+        \ la pieza varían de tal \nforma que no tiene sentido optimizar la distribución\
+        \ de \narmaduras sección a sección pues el armado resultante \nresultaría impracticable.\
+        \ \nEn el caso del pórtico de la Figura 7.3.6.6.1 seguramente el dintel \npresentará\
+        \ \nuna \nsolución \nmás \neconómica \nutilizando \narmaduras \nasimétricas\
+        \ (mayores armaduras en la cara superior en los extremos y \nen la cara inferior\
+        \ en el centro del tramo) y los montantes, por la \nalternancia de momentos\
+        \ que puede llegar a originar la acción del viento \nsobre los laterales de\
+        \ la construcción, es muy posible que requieran un \nestudio detallado para\
+        \ decidir entre armaduras simétricas y asimétricas. \n4.6.4.2.- \nTeorema de\
+        \ Armado Óptimo \nEn \nla \nFigura \n4.6.4.2.1, \ncorrespondiente \na \nuna\
+        \ \nsección \nrectangular con armadura simétrica, se \nhan marcado en trazo\
+        \ grueso dos \nsectores en los que se aprecia que ya \nsea la armadura traccionada\
+        \ o la \narmadura comprimida se encuentran \nresistiendo \nlas \nsolicitaciones\
+        \ \ncon \ntensiones que son inferiores a la mitad \nde su resistencia. En otras\
+        \ palabras, \nque \nestán \nparcialmente \ndesaprovechadas. \nLa observación\
+        \ anterior lleva a \npensar que podrían existir disposiciones \nde \narmaduras\
+        \ \nno \nsimétricas \nque \npudieran \nresistir \nuna \ndeterminada \nsolicitación\
+        \ con una demanda de \narmadura total A’s + As menor que la \nproveniente del\
+        \ uso de una armadura \nsimétrica. En principio se trata nada \nmás que de una\
+        \ conclusión basada en \nel sentido común. \nFigura 4.6.4.1.1 \nFigura 4.6.4.2.1\
+        \ \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.4.1.1.png
+        - flexion-compuesta-recta/Figura 4.6.4.2.1.png
+      page: 16
+    - content:
+        " \n17 \nEn el pasado diferentes autores han abordado el tema, en particular\
+        \ con referencia a secciones \nrectangulares. \nRecientemente (Referencia 4)\
+        \ se ha denominado, en forma algo exuberante, “Teorema de \nArmado Óptimo” al\
+        \ listado de condiciones que se enumeran en los párrafos siguientes. \nLas armaduras\
+        \ As y A’s necesarias para proveer a una sección rectangular de hormigón con\
+        \ una \nseguridad adecuada para una combinación dada de esfuerzo axial y momento\
+        \ que produzcan un estado \nde flexión compuesta recta tienen las siguientes\
+        \ características: \na) \nExiste una combinación infinita de valores de As y\
+        \ A’s que satisfacen la condición de \nseguridad \nb) \nEl área total mínima\
+        \ (As + A’s) ocurre cuando se da una de las siguientes circunstancias: \n \n\
+        As = A’s = 0 \n \nAmbas armaduras están en fluencia por compresión \n \nAs\
+        \ = 0 \n \ns es igual a 0.005 \n \nA’s = 0 \n \nAmbas armaduras están en\
+        \ fluencia por tracción \nEn la referencia bibliográfica citada se encontrará\
+        \ la demostración del teorema y un corolario.  \nLas condiciones del teorema\
+        \ se \nilustran \nesquemáticamente \nen \nla \nFigura \n4.6.4.2.2. Las ecuaciones\
+        \ de las rectas A a E \nque dividen los sectores también pueden \nencontrarse\
+        \ en la bibliografía (Referencia 5).  \nEl sector I se encuentra delimitado\
+        \ por \nla curva de interacción correspondiente al \nhormigón simple, sin armadura,\
+        \ por lo que \ncualquier \npunto \nsobre \nel \nperímetro \ncorresponde a armaduras\
+        \ necesarias nulas y \ncualquier punto interior correspondería a una \narmadura\
+        \ “negativa” (aunque esto no tiene \nsentido físico y se adoptará una armadura\
+        \ \nnula). \nEl concepto importante a extraer es \nque para cada par de valores\
+        \ de axial y \nmomento solicitantes existirá, de acuerdo al \nsector en que\
+        \ se ubiquen, una combinación de \narmaduras que hace mínima a la armadura total.\
+        \ \nRazonando de igual manera pueden desarrollarse ábacos para el “dimensionamiento\
+        \ óptimo” \ntales como el que se muestra en la Figura 4.6.4.2.3. \nHasta aquí\
+        \ lo que podría denominarse un dimensionamiento teórico óptimo.  \nEl Sector\
+        \ I impone el empleo de armaduras mínimas dado que, de otra forma, se estaría\
+        \ frente a \nuna sección de hormigón simple (luego se volverá sobre este tema).\
+        \  \nLos sectores II y III corresponden a secciones con excentricidades medias\
+        \ a pequeñas con la \nsección de hormigón mayormente o totalmente comprimida.\
+        \ Las razones que llevaron a imponer \ncuantías mínimas de armaduras en columnas\
+        \ (control de la fluencia lenta y transferencia de cargas del \nhormigón a las\
+        \ armaduras) siguen vigentes por lo que no debería pensarse en que es lógico\
+        \ proyectar \nuna sección con As = 0. En otras palabras, en los sectores II\
+        \ y III las condiciones de cuantías mínimas \ndisminuirán la economía proveniente\
+        \ de un armado asimétrico por lo que las armaduras simétricas \nresultarán una\
+        \ elección técnicamente más conveniente con un bajo detrimento en la economía,\
+        \ con \nFigura 4.6.4.2.2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.4.2.2.jpeg
+      page: 17
+    - content:
+        " \n18 \nmayor capacidad para absorber variaciones inesperadas en la\
+        \ excentricidad de la carga y con menores \nposibilidades de cometer errores\
+        \ en obra. \nFigura 4.6.4.2.3 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.4.2.3.jpeg
+      page: 18
+    - content:
+        " \n19 \nPara los sectores IV, V y VI se verán enseguida procedimientos\
+        \ de cálculo sencillos y prácticos \nque permiten obtener las armaduras “óptimas”\
+        \ sin necesidad de razonamientos engorrosos ni uso de \nábacos. Es más, sin\
+        \ necesidad de conocer a cual de los sectores indicados en la Figura 4.6.4.2.2\
+        \ \npertenecen. \n4.6.4.3.- \nFlexión Generalizada ó \nTeorema de Ehlers ò \n\
+        Método de Wuczkowski \nTodos los títulos anteriores corresponden a un procedimiento\
+        \ de cálculo muy sencillo que \npermite determinar armaduras asimétricas en\
+        \ flexión compuesta recta correspondiente a solicitaciones \nque se ubican en\
+        \ los Sectores IV y V vistos en el punto anterior. No es necesario saber “a\
+        \ priori” dónde \nse ubican las solicitaciones respecto a estos sectores. \n\
+        El origen del método (para nada un teorema) no es muy claro. Al parecer fue\
+        \ desarrollado en los \nprimeros años del siglo XX por Richard Wuczkowski.y\
+        \ difundido por Georg Ehlers. De allí que pueda ser \nencontrado en la bibliografía\
+        \ con diferentes nombres (p.e. en Francia con el primer nombre y en España \n\
+        con el segundo).  \nEste procedimiento, más conocido en nuestro medio como “Flexión\
+        \ Generalizada”, consiste en \nllevar el nivel de reducción de momentos a la\
+        \ armadura traccionada5, calcular dicha armadura con el \nnuevo momento como\
+        \ si se tratara de un caso de flexión simple y luego corregir el valor de “AsR”\
+        \ así \nobtenido suponiendo que la fuerza exterior es enteramente resistida\
+        \ por dicha armadura. La armadura \ncomprimida que se obtenga del cálculo no\
+        \ requiere corrección alguna. Si se respeta su rango de \naplicación no se trata\
+        \ de un procedimiento aproximado sino de uno “exacto” y es válido tanto para\
+        \ flexo-\ntracción como para flexo-compresión y, además, conduce a armaduras\
+        \ “óptimas”, es decir, cuya suma es \nmínima. \nLa nomenclatura y la convención\
+        \ de signos a utilizar pueden verse en la Figura 4.6.4.3.1 donde \nel momento\
+        \ exterior “Mu” es positivo, es decir que tracciona  a la armadura inferior\
+        \ y el esfuerzo axial \n“Pu” puede ser tanto de tracción como de compresión.\
+        \ Como los esfuerzos de tracción se consideran \nnegativos, sus excentricidades\
+        \ se ubican por debajo del centro de gravedad de la sección de hormigón. \n\
+        Lo contrario ocurre con los esfuerzos axiales de compesión. \nLa excentricidad\
+        \ respecto a la armadura traccionada se denomina “eR” y se obtiene sumando a\
+        \ la \nexcentricidad calculada respecto del centro de gravedad de la sección\
+        \ de hormigón “e” la distancia entre \ndicho centro de gravedad y la armadura\
+        \ traccionada, es decir, h/2 – d’. \nEntrando en detalle y considerando las\
+        \ particularidades del CIRSOC 201-05, el procedimiento \nconsiste en: \n5 Equivale\
+        \ a suponer que la carga exterior queda actuando directamente sobre dicha armadura.\
+        \ \nFigura 4.6.4.3.1 \n6.1 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.4.3.1.png
+      page: 19
+    - content:
+        " \n20 \nFigura  4.6.4.3.2                            Figura 4.6.4.3.3\
+        \                              Figura 4.6.4.3.4 \na) \nSuponer que se trata\
+        \ de una rotura controlada por tracción es decir: \n =0.90  \nPn = Pu /  \
+        \ \nMn = Mu /  \nka lim = 3 1 /8 \nMc = 0.85 f’c b d2 ka lim (1 –ka lim/2)\
+        \ \nf’s = fy – 0.85 f’c \nRigurosamente, la tensión anterior, que es ficticia,\
+        \ debe calcularse a partir de la tensión \n“real” de la armadura calculada por\
+        \ semejanza de triángulos \nb) \nCálcular el momento de Pn respecto a As: \n\
+        e = Mn/Pn \neR = e + h/2 – d’ \nMnR = Pn eR  \nc) \nCalcular  AsR  y A’sR como\
+        \ en Flexión Simple para MnR \nd) \nmR = MnR / (0.85 b d2 f’c) \nka = 1 – (1\
+        \ – 2 mR)1/2 \nSi ka ≤ ka lim → ka = ka calculado   ;   M = 0 \nSi ka > ka\
+        \ lim → ka = ka lim   ; M = MnR - Mc \nA’s = M /[ (d –d’) f’s ] \nAsR = (ka\
+        \ 0.85 f’c b d + A’s  f’s) / fy   \ne) \nCorregir  AsR por efecto de Pn :  \
+        \        \nAs = AsR -Pn / fy  \nf) \nVerificar cuantía mínima con los critérios\
+        \ vistos en Flexión Simple  \nSi en el cálculo de ka la raíz resultara negativa,\
+        \ eso implica que se requiere doble armadura y \nhabrá que adoptar ka = ka lim.\
+        \ \nEn definitiva, lo que se ha hecho es aplicar el esfuerzo axial directamente\
+        \ sobre la armadura \nmediante la corrección del momento solicitante. De esta\
+        \ forma se ha dimensionado a flexión simple para \nel momento solicitante corregido\
+        \ y luego se ha introducido la fuerza exterior como un incremento o \ndecremento\
+        \ de la armadura traccionada calculada previamente a flexión simple. \nLas expresiones\
+        \ anteriores tienen validez siempre que se trate de solicitaciones de \nflexocompresión\
+        \ o flexotracción con gran excentricidad. Esto se verifica cuando: \na) \nEn\
+        \ flexocompresión  As resulta positivo \nb) \nEn flexotracción  la carga se\
+        \ encuentra “por debajo” de As, es decir, cuando e  -(h/2 – d’) \no, en forma\
+        \ más gráfica, cuando la carga de tracción no se encuentra entre las \narmaduras.\
+        \ \nEnseguida se verá un procedimiento para el cálculo de armaduras asimétricas\
+        \ cuando la carga \nde tracción se encuentra entre las armaduras. \nSi se quiere\
+        \ ser coherente con los procedimientos planteados para el caso de armaduras\
+        \ \nsimétricas, en caso de ser necesaria armadura comprimida ésta deberá calcularse\
+        \ disminuyendo su \ntensión en 0.85 f’c de modo de considerar el área de hormigón\
+        \ comprimido desplazada por las barras \ncomprimidas. Este no es el criterio\
+        \ que se empleó al estudiar Flexión Simple. \n" 
+      page: 20
+    - content:
+        " \n21 \nEn las Figuras 4.6.4.3.2 a 4.6.4.3.4 se han graficado soluciones\
+        \ asimétricas que resisten, en un \núnico punto, lo mismo que una solución simétrica\
+        \ dada. Para este caso particular, la primera y la última \nsolución conducen\
+        \ a una armadura total del orden de la mitad de la armadura correspondiente\
+        \ al arreglo \nsimétrico mientras que en el segundo caso la diferencia en términos\
+        \ de armadura total es mínima. Queda \nclaro por supuesto que la primera y la\
+        \ última solución generan una superficie resistente mucho menor \nque la solución\
+        \ simétrica y no son equivalentes más que en un punto. \nEn la Figura 4.6.4.3.3\
+        \ se confirma que, cuando las solicitaciones llevan para el caso de armadura\
+        \ \nsimétrica a una deformación del acero más traccionado igual a 0.005, la\
+        \ solución es “óptima”. \nCuando para una solución asimétrica las armaduras\
+        \ obtenidas difieren poco entre sí, no vale la \npena complicar el armado y\
+        \ es preferible recurrir a una solución simétrica. \n4.6.4.4.-  \nFlexotracción\
+        \ con Pequeñas Excentricidades  \nEn este caso la fuerza exterior está ubicada\
+        \ entre las armaduras. Aceptando la hipótesis que \ndice que el hormigón no\
+        \ tiene resistencia a tracción, en este caso no se tendrá colaboración del \n\
+        hormigón en compresión y ambas armaduras se encuentran traccionadas y en fluencia\
+        \ por lo que el \nplanteo de momentos respecto a As conduce a: \ne = Mn/Pn \n\
+        eR = e + h/2 – d’ \nA’s = - Pn eR  / [(h – 2 d’) fy] \ndel equilibrio de fuerzas\
+        \ se obtiene:   \nAs = - Pn / fy - A’s \nRecordar que las fuerzas de tracción\
+        \ se consideran \nnegativas. \nEn la Figura 4.6.4.4.1 se ha graficado una solución\
+        \ \nasimétrica para resistir un caso de flexotracción con muy \npequeña excentricidad\
+        \ comparando la curva de interacción con \nla correspondiente a la solución\
+        \ simétrica. Se observa que la \ndiferencia entre ambos diagramas de interacción\
+        \ no es muy \nimportante lo que da la idea de que la armadura asimétrica es\
+        \ \nmuy cercana en distribución a la simétrica y, nuevamente, \npuede no tener\
+        \ sentido complicar el armado resultando más razonable una solución simétrica.\
+        \ \n4.6.4.5.- \nComentarios sobre el uso de armaduras asimétricas \nExisten\
+        \ cuatro situaciones para las que las armaduras simétricas constituyen la solución\
+        \ óptima \ndesde el punto de la cantidad total de armadura a disponer: \na)\
+        \ \nCompresión Centrada \nb) \nMomento flector positivo y deformación de la\
+        \ armadura más traccionada igual a 0.005 \nc) \nMomento flector negativo y deformación\
+        \ de la armadura más traccionada igual a 0.005 \nd) \nTracción centrada \nLa\
+        \ situación b) puede verse en la Figura 4.6.4.3.3 donde se aprecia que, al acercarse\
+        \ el punto en \nestudio a la solución para la que la armadura simétrica presenta\
+        \ una deformación igual a 0.005 en la \narmadura más traccionada, ambas soluciones\
+        \ tienden a coincidir. Vale la situación simétrica. \nLa situación d) puede\
+        \ apreciarse en la Figura 4.6.4.4.1 donde al acercarse la solicitación a la\
+        \ tracción \ncentrada, ambas soluciones tienden a coincidir. \nLo mismo ocurre\
+        \ en la compresión centrada. \nEstas cuatro situaciones pueden explicarse fácilmente\
+        \ dado que en ellas todas las armaduras se \nencuentran en fluencia (sea por\
+        \ tracción o por compresión) conduciendo al máximo aprovechamiento del \nFigura\
+        \ 4.6.4.4.1 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.4.4.1.jpeg
+      page: 21
+    - content:
+        " \n22 \nacero, es decir, a la solución óptima. Si se revisa el “Teorema\
+        \ de Armado Óptimo” se verá que estas \nsituaciones son algunas de las allí\
+        \ listadas. \nEn las proximidades de estos puntos no tiene sentido recurrir\
+        \ a soluciones asimétricas dado que \ncomplican el armado sin conducir a economías\
+        \ significativas de armaduras totales. \nSi se desea calcular armaduras asimétricas\
+        \ empleando los métodos propuestos anteriormente deben \nseguirse los siguientes\
+        \ pasos: \na) \nSi el esfuerzo es de tracción y la carga cae entre las armaduras\
+        \ se calculará como \nflexotracción con pequeña excentricidad \nb) \nEn cualquier\
+        \ otro caso se empleará el concepto de flexión generalizada recordando que el\
+        \ \nmismo es válido siempre que se obtenga un valor positivo para la armadura\
+        \ más \ntraccionada. \nDado que las secciones reales están sometidas a lo largo\
+        \ de su vida a diferentes combinaciones de \nacciones es imposible lograr una\
+        \ armadura que resulte “optima” para todas ellas. El resultado final será \n\
+        un compromiso razonable que presente seguridad adecuada frente a todas ellas.\
+        \ \n4.6.5.- Secciones Circulares \nExisten numerosos ejemplos de secciones circulares\
+        \ \nsometidas a solicitaciones de flexión compuesta. Este es el caso \nde los\
+        \ pilotes y pozos de fundación y de las columnas de \nedificios pertenecientes\
+        \ a estructuras que resisten esfuerzos de \nviento. También pueden encontrarse\
+        \ en pilas de puentes y en \npalizadas de pilotes empleadas como elementos para\
+        \ la \ncontención de rellenos de tierra. \nPara el análisis de este tipo de\
+        \ secciones vale todo lo \ndicho hasta ahora para secciones rectangulares dado\
+        \ que el \nCIRSOC 201-05 considera válida la aplicación del diagrama \nrectangular\
+        \ equivalente de tensiones en el hormigón comprimido \na cualquier forma de\
+        \ sección transversal. Aceptado esto, se \npresentan dos problemas: determinar\
+        \ la magnitud y posición de \nla resultante en el hormigón y la tensión en las\
+        \ armaduras para \nluego proceder al resto de los cálculos. \nSiguiendo la nomenclatura\
+        \ de la Figura 4.6.5.1 los valores referidos a la sección de hormigón \ncomprimido\
+        \ se obtienen a partir de: \nÁrea = Ac = R2 ( 2 – seno 2) / 2 \ng = 2 (R\
+        \ seno )3 / (3 Ac) \nEn las expresiones anteriores el ángulo debe ser introducido\
+        \ en radianes. \nPara cada plano de deformaciones que se analice puede calcularse\
+        \ la deformación en cada una \nde las barras por semejanza de triángulos. A\
+        \ partir de estas deformaciones el cálculo de tensiones, \nfuerzas y momentos\
+        \ resulta elemental. \nCabe un comentario. La Figura 4.6.5.2 \nmuestra que,\
+        \ si el número de barras no es muy \ngrande, la posición de las armaduras frente\
+        \ al \nmomento flector varía tanto la altura útil de la \nsección como su resistencia.\
+        \ En estos casos, \ncomo es muy difícil prever cual será la posición \nde las\
+        \ barras en obra, deberá calcularse la menor \nresistencia de la sección. Las\
+        \ diferencias en la \nresistencia con la orientación de la sección es \nCG \n\
+        R \nc \ng \n\nFigura 4.6.5.1 \nFigura 4.6.5.2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 4.6.5.1.png
+        - flexion-compuesta-recta/Figura 4.6.5.2.png
+      page: 22
+    - content:
+        " \n23 \nmuy baja para 8 barras y para un número mayor resulta despreciable\
+        \ a los efectos prácticos. \nCuando una sección circular tiene un número importante\
+        \ de barras longitudinales puede \nsuponerse que tiene infinitos ejes de simetría.\
+        \ En ese caso, cualquiera sea la orientación del momento \nflector resultante\
+        \ que actúe sobre la misma dará lugar a un estado de flexión compuesta recta.\
+        \ En otras \npalabras, no puede existir flexión compuesta oblicua.  \nLos programas\
+        \ de cálculo de solicitaciones suelen dar como resultados esfuerzos axiales\
+        \ y \nmomentos según dos direcciones ortogonales. En estos casos lo que habrá\
+        \ que hacer es transformar \nesos momentos ortogonales en un único momento flector\
+        \ a través de una suma vectorial. \n5.- \nMayoración/Minoración de Solicitaciones\
+        \ \nAunque la determinación de las resistencias requeridas es previa a cualquier\
+        \ determinación de \narmaduras, se ha preferido tratar con más detalle este\
+        \ tema una vez conocido el comportamiento de \nsecciones a flexión compuesta\
+        \ y el manejo de ábacos de modo de facilitar la visualización de las \nparticularidades\
+        \ y precauciones que se presentan en la obtención de las solicitaciones de cálculo.\
+        \ \nOtras solicitaciones como la Tracción Simple, la Compresión Simple, la Flexión\
+        \ Simple y el Corte \nofrecen pocas dudas a la hora de “mayorar” y/o combinar\
+        \ solicitaciones de distinto origen: cuanto más \ngrande es la solicitación\
+        \ de cálculo, mayores son los requerimientos de armaduras. Como se verá \nenseguida,\
+        \ este no es necesariamente el caso de la Flexión Compuesta Recta.  \nEl CIRSOC\
+        \ 201-05 emplea la siguiente nomenclatura para identificar a las solicitaciones\
+        \ según \nsu origen: \nU:  \nSolicitación genérica (puede ser un momento flector,\
+        \ un esfuerzo axial, etc.) \nD:  \nSolicitación debida a acciones permanentes\
+        \ sin mayorar \nE:  \nSolicitación de origen sísmico \nF:  \nSolicitación debida\
+        \ a fluidos (p.e. empuje de agua) \nH: \nSolicitación debida al peso y presión\
+        \ lateral de suelos u otros materiales \nL:  \nSolicitación debida a sobrecargas\
+        \ \nLr:  \nSolicitación debida a sobrecargas en cubiertas \nR:  \nSolicitación\
+        \ debida a lluvia \nS:  \nSolicitación debida a nieve \nT:  \nSolicitación debida\
+        \ a coacción (p.e. temperatura, contracción, fluencia lenta) \nW:  \nSolicitación\
+        \ debida al viento \nYa se ha visto que el CIRSOC 201-05 contempla las siguientes\
+        \ combinaciones que deben ser \nanalizadas como mínimo para calcular la resistencia\
+        \ requerida: \n" 
+      page: 23
+    - content:
+        " \n24 \nFigura 5.1 \n1-9-1 \n1-9-2 \n1-9-3 \n1-9-4 \n2-9-1 \n2-9-2 \n\
+        2-9-3 \n2-9-4 \n" 
+      page: 24
+    - content:
+        " \n25 \nLos programas comerciales para el cálculo de solicitaciones\
+        \ en estructuras ya incorporan las \ncombinaciones anteriores y permiten emplear\
+        \ también combinaciones personalizadas. Dado que esto \ntiene un impacto imperceptible\
+        \ en los tiempos de cálculo es conveniente ser generoso en las \ncombinaciones\
+        \ a analizar de modo de no pasar por alto alguna que pudiera ser determinante\
+        \ sin resultar, \nen principio, evidente. \nPara clarificar el hecho de que\
+        \ la combinación determinante en el dimensionamiento no siempre \nresulta obvia\
+        \ (mayor axial, mayor momento, etc.) en la Figura 5.1 se han volcado los resultados\
+        \ de los \nsiguientes dos ejemplos en los que se han empleado las combinaciones\
+        \ 9-1, 9-2, 9-4 y 9-6.  \nEn la Tabla 5.1 se han denominado como “n” y “m” a\
+        \ las solicitaciones sin mayorar llevadas a \nvalores adimensionales como ya\
+        \ se ha visto anteriormente. \nPara estos ejemplos particulares, en el Caso\
+        \ 1 ha resultado –por muy poco- determinante la \ncombinación 9-4 mientras que\
+        \ en el Caso 2 la combinación que conduce a la mayor armadura es la 9.3. \n\
+        Como regla general, si se toma como línea divisoria a la deformación de 0.005\
+        \ en la armadura más \ntraccionada se observa que: \na) \nEn la parte superior\
+        \ del diagrama, si se mantiene fijo el momento reducido, las cuantías \naumentan\
+        \ al aumentar el esfuerzo axial reducido. \nb) \nEn la parte inferior del diagrama,\
+        \ si se mantiene fijo el momento reducido, las cuantías \naumentan al disminuir\
+        \ el esfuerzo axial reducido. \nc) \nEn cualquier sector, si se mantiene fijo\
+        \ el esfuerzo axial, las cuantías aumentan al aumentar \nel momento reducido.\
+        \ \n6.- \nDuctilidad \n6.1.- \nIntroducción \nEl término ductilidad se utiliza\
+        \ comúnmente para indicar dos cualidades diferentes de una \nsección. Esto pudo\
+        \ verse al estudiar la aplicación del término ductilidad en Flexión Simple.\
+        \ \nAl estudiar Flexión Simple se impusieron dos condiciones de ductilidad para\
+        \ considerar que una \nsección se encontraba adecuadamente dimensionada: \n\
+        a) \nLa sección tenía que tener una cantidad suficiente de armadura traccionada\
+        \ como para \npoder evitar una rotura con la primera fisura. En otras palabras,\
+        \ el momento resistente \ntenía que ser superior al momento de fisuración. El\
+        \ respetar esta condición dio lugar al \nestablecimiento de cuantías mínimas.\
+        \ \nb) \nEn el momento de la rotura la armadura más traccionada no solamente\
+        \ tenía que \nencontrarse en fluencia sino que su deformación tenía que ser\
+        \ mayor que 0.004 (mínimo \nreglamentario) ó 0.005 (mínimo económico). Esta\
+        \ imposición asegura una ductilidad \nmínima en términos de deformación plástica\
+        \ de la armadura y sirve para determinar la \ncuantía máxima. \nEsos criterios\
+        \ sirvieron entonces para establecer las denominadas “cuantías límites” \nEn\
+        \ el primer caso la cantidad de armadura tenía que ser suficiente como para\
+        \ asegurar la \nexistencia de un mecanismo resistente una vez producida la primera\
+        \ fisura. Aquí la ductilidad implica que \nla rotura no se produce en forma\
+        \ frágil con la primera fisura. \nCaso 1 \nCaso 2 \nCombinac. \n9-1 \nCombinac.\
+        \ \n9-2 \nCombinac. \n9-3 \nCombinac, \n9-4 \nCarga \nn \nm \nn \nm \nD \n0.06\
+        \ \n0.01 \n0.15 \n0.06 \nCaso \nnu \nmu \nnu \nmu \nnu \nmu \nnu \nmu \nL \n\
+        0.04 \n0.01 \n0.12 \n0.04 \n1 \n0.08 \n0.01 \n0.14 \n0.03 \n0.12 \n0.15 \n0.09\
+        \ \n0.14 \nW \n0.02 \n0.08 \n0.05 \n0.05 \n2 \n0.21 \n0.08 \n0.37 \n0.14 \n\
+        0.32 \n0.17 \n0.22 \n0.13 \nTabla 5.1 \nTabla 5.2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 5.1.png
+      page: 25
+    - content:
+        " \n26 \nEn el segundo caso se está buscando un cierto valor de ductilidad\
+        \ entendiendo por tal al \ncociente entre la deformación del acero traccionado\
+        \ en el momento de la rotura y su deformación de \nfluencia. Este segundo concepto\
+        \ es el que se comenta en los párrafos siguientes aplicado a la Flexión \nCompuesta\
+        \ Recta. \n6.2.- \nEsfuerzos axiales y ductilidad \nEn forma genérica la ductilidad\
+        \ suele definirse como la capacidad que tiene un material (o una \nsección)\
+        \ para experimentar una importante deformación antes de romper. \nEn hormigón\
+        \ armado la ductilidad de una sección se cuantifica como el cociente entre la\
+        \ \ndeformación del acero más traccionado en el momento de la rotura dividida\
+        \ por la deformación de \nfluencia de dicho acero6. \nCon este concepto en mente\
+        \ puede analizarse la Figura 4.3.1 donde se muestran los planos \nlímite que\
+        \ propone el CIRSOC 201-05. Allí puede verse que cualquier plano comprendido\
+        \ entre el “a” y el \n“d” tendría, por definición, una ductilidad menor o a\
+        \ lo sumo igual a uno.  Valores de ductilidad menores \nque uno no tienen sentido\
+        \ físico y, por lo tanto, no se calculan. \nA continuación se muestran dos gráficos\
+        \ (Figuras 6.2.1 y 6.2.2) correspondientes a una sección \nrectangular con las\
+        \ siguientes características: \nMateriales:                   f’c = 20 MPa \
+        \        ;   fy = 420 MPa \nSección de Hormigón    Ancho = 0.25 m    ;  Altura\
+        \ Total = 0.50 m :  Recubrim. a ejes = 0.05 m. \nArmaduras:                \
+        \ As = A’s = 23.81 cm2 \nEn la Figura 6.2.1 se muestra el diagrama de interacción\
+        \ Pn-Mn y la evolución de las \ndeformaciones en la armadura As al variar el\
+        \ esfuerzo axial. \nEn la Figura 6.2.2 se muestra la evolución de la ductilidad\
+        \ con el esfuerzo axial. Como puede \napreciarse, por encima del esfuerzo axial\
+        \ que corresponde a la deformación de fluencia por tracción de la \narmadura\
+        \ As, deja de estar definida la ductilidad. Por otra parte, la ductilidad máxima\
+        \ corresponde con el \nesfuerzo axial mínimo.   \nEn forma genérica podría decirse\
+        \ que las roturas “tipo columna” son las más frágiles mientras \nque las “roturas\
+        \ tipo viga” son las más dúctiles. \n6.3.- \n¿Por qué son deseables las secciones\
+        \ con alta ductilidad? \nExisten múltiples razones por las que se prefiere –\
+        \ y en algunos casos se requiere – que las \nsecciones de un elemento presenten\
+        \ alta ductilidad. \n6.3.1.- En estructuras no sísmicas \nEn estructuras que\
+        \ no presentan requerimientos especiales para resistir acciones sísmicas (p.e.\
+        \ \nProvincia de Buenos Aires en Argentina) la ductilidad es requerida por dos\
+        \ razones fundamentales: \na) \nLas altas ductilidades van asociadas con importantes\
+        \ grados de fisuración y de \ndeformaciones previos a la rotura. En otras palabras,\
+        \ la estructura da señales de estar \npróxima a fallar de modo que pueden tomarse\
+        \ precauciones ya sea para evitar su falla como \npara poner a salvo vidas y\
+        \ bienes. \nb) \nCuanto mayor sea la ductilidad de sus secciones mayor será\
+        \ la capacidad de una estructura \npara redistribuir esfuerzos. En el caso de\
+        \ estructuras hiperestáticas esta cualidad permite \nque zonas más solicitadas\
+        \ de una estructura puedan recibir la colaboración resistente de \n6 También\
+        \ se la suele definir como el cociente del giro de la sección en el momento\
+        \ de la rotura dividido el giro \ncorrespondiente a la deformación de fluencia.\
+        \ Al estar fija la deformación de rotura del hormigón en el valor 0.003, \n\
+        ambos criterios conducen al mismo resultado numérico. \n" 
+      page: 26
+    - content:
+        " \n27 \notras zonas menos solicitadas (p.e. transferencia de momentos\
+        \ de tramo a apoyos y \nviceversa en vigas continuas). \nAl emplear coeficientes\
+        \ de reducción de resistencia más pequeños para las solicitaciones menos \n\
+        dúctiles el CIRSOC 201-05 está provocando que, ante la eventualidad de un incremento\
+        \ inesperado en \nlas solicitaciones, tiendan a fallar primero las secciones\
+        \ que presentan mayor ductilidad. \n6.3.2.- En estructuras sismorresistentes\
+        \ \nYa se ha visto en otras asignaturas de la carrera que existen métodos para\
+        \ el proyecto de \nestructuras sismorresistentes basados en la existencia de\
+        \ zonas específicas de la estructura donde se \nprevé la formación de rótulas\
+        \ plásticas. Estas zonas muy localizadas concentran casi la totalidad de la\
+        \ \ncapacidad de disipación de energía de estas estructuras. La capacidad de\
+        \ giro plástico y la disipación de \nenergía están íntimamente asociadas con\
+        \ la ductilidad. \n7.- \nCuantías Mínimas \n7.1.- \nGeneralidades \nRespecto\
+        \ de las solicitaciones simples estudiadas hasta ahora (compresión, tracción\
+        \ y flexión), \nen flexión compuesta el problema de definir cuantías mínimas\
+        \ y máximas se vuelve más complejo y el \nreglamento CIRSOC 201-05 ayuda poco\
+        \ y nada al respecto.  \nDentro del campo de la Flexión Compuesta Recta pueden\
+        \ identificarse fácilmente los tres \ncomportamientos “extremos” ya analizados:\
+        \ \na) \nComportamiento tipo “columna”. Al estudiar Compresión Simple, se establecieron\
+        \ \ncuantías mínimas y máximas geométricas.  \nb) \nEn el extremo opuesto se\
+        \ ubica el comportamiento tipo “tirante” para el que se estableció \nuna cuantía\
+        \ mínima mecánica y una máxima geométrica.  \nFigura 6.2.1                 \
+        \                                           Figura 6.2.2 \n"
+      images:
+        - flexion-compuesta-recta/Figura 6.2.1.jpeg
+      page: 27
+    - content:
+        " \n28 \nc) \nPara esfuerzos axiales nulos se tendrá un comportamiento\
+        \ tipo “viga” para el que se \nestablecieron cuantías mecánicas máximas y mínimas.\
+        \ \nExisten, por supuesto,  infinitos comportamientos intermedios. \nPara marcar\
+        \ las diferencias en cuanto a los criterios empleados vale recordar que la cuantía\
+        \ \nmínima de compresión se estableció en forma empírica (y varios autores sugieren\
+        \ revisarla para \nincrementarla) de modo de limitar las deformaciones por fluencia\
+        \ lenta del hormigón comprimido y la \nmáxima obedece a cuestiones constructivas.\
+        \ La cuantía mínima en tirantes surge de asegurar que la \nresistencia minorada\
+        \ de las armaduras sea al menos un 20% mayor que la carga de fisuración y la\
+        \ \ncuantía máxima también es constructiva. \nA la cuantía mínima de flexión\
+        \ puede llegarse a través de varios caminos pero puede afirmarse \nque si se\
+        \ respeta el valor que el reglamento da para la misma, el momento nominal afectado\
+        \ por el \ncoeficiente de reducción de resistencia será siempre mayor que 1.2\
+        \ veces el momento de fisuración. La \ncuantía máxima surge a partir de condiciones\
+        \ de ductilidad y economía. \n7.2.- \nCriterios no reglamentarios sugeridos\
+        \ para Flexión Compuesta Recta \nComo ya se ha dicho, el CIRSOC 201-05 no da\
+        \ indicaciones precisas sobre la aplicación de \ncuantías mínimas en Flexión\
+        \ Compuesta Recta (tampoco lo hace en tracción simple). Dado que la flexión\
+        \ \ncompuesta incluye situaciones en las que la armadura más traccionada o menos\
+        \ comprimida no se \nencuentra en fluencia por tracción o directamente se encuentra\
+        \ comprimida (ver Figura 6.2.1), no podrá \nhablarse de un requerimiento de\
+        \ ductilidad en estos casos. \nAl referirse a cuantía mínima en elementos pretensados,\
+        \ el CIRSOC 201-05 exige que la \narmadura dispuesta sea capaz de proveer un\
+        \ momento nominal reducido por el coeficiente de reducción \nde resistencias\
+        \ mayor o igual que 1.2 veces el momento de fisuración. \nSi se razona por ese\
+        \ camino, y sin entrar aquí en detalles, pueden considerarse algunos criterios\
+        \ \nbásicos aunque no especificados en el reglamento: \na) \nEn secciones flexocomprimidas\
+        \ con deformaciones en el acero más traccionado menores a \nla deformación de\
+        \ fluencia por tracción, podría adoptarse cuantía mínima de columnas y \nresulta\
+        \ razonable pensar en el uso de armaduras simétricas. \nb) \nEn secciones flexotraccionadas\
+        \ donde la carga exterior se ubica entre las armaduras podría \nadoptarse cuantía\
+        \ mínima de tirantes y también resultaría razonable pensar en el uso de \narmaduras\
+        \ simétricas. \nc) \nPara los restantes casos de flexocompresión y flexotracción\
+        \ podría emplearse cuantía \nmínima de flexión y parece razonable al menos estudiar\
+        \ el uso de armaduras asimétricas \n7.3.- \nUn Comentario sobre las cuantías\
+        \ máximas \nHay que aclarar que, para Flexión Compuesta Recta nuevamente, el\
+        \ CIRSOC 201-05 no tiene \nnada concretamente especificado en referencia a las\
+        \ cuantías máximas. \nValen aquí algunos de los comentarios hechos al tratar\
+        \ en un punto anterior las cuantías \nmínimas. Para comportamientos tipo “columna”\
+        \ o tipo “tirante” serán de aplicación las cuantías máximas \ngeométricas vistas\
+        \ para este tipo de elementos. \nPara los comportamientos tipo “viga” también\
+        \ habrá que establecer un criterio geométrico (por \nejemplo el visto para columnas\
+        \ o cualquier otro que conduzca a armados lógicos) salvo que las \narmaduras\
+        \ sean asimétricas (tipo viga) en cuyo caso habrá que adoptar las cuantías máximas\
+        \ de flexión \nen términos de mantener las deformaciones en la armadura más\
+        \ traccionada mayores que 0.004 si se \nsigue el criterio del CIRSOC 201-05\
+        \ o de 0.005 si se sigue el criterio de máxima economía. \n" 
+      page: 28
+    - content:
+        " \n29 \n8.- \nAlgunas Preguntas \n8.1 \nA qué se denomina Flexion Compuesta\
+        \ Recta? En qué casos se da? \n8.2 \nEn qué tipo de secciones no puede darse\
+        \ la Flexión Compuesta Recta? \n8.3 \nQué es un diagrama de interacción? Son\
+        \ válidos solamente para secciones simétricas? \n8.4 \nPor qué son más útiles\
+        \ los diagramas expresados en  Pn –  Mn que en Pn – Mn? \n8.5 \nDibuje tres\
+        \ diagramas de interacción correspondientes a una sección rectangular. El primero\
+        \ de \nellos correspondiente a una armadura simétrica, el segundo a una armadura\
+        \ asimétrica en la que \nAs sea mayor que A’s y el tercero con A’s mayor que\
+        \ As. En todos los casos la armadura total es \nla misma. \n8.6 \nEscriba la\
+        \ condición resistente del CIRSOC 201-05 para el caso de la Flexión Compuesta\
+        \ Recta. \n8.7 \nQue dos tipos de problemas típicos podrán presentarse frente\
+        \ a una sección sometida a Flexión \nCompuesta Recta? \n8.8 \nCuáles son las\
+        \ hipótesis de cálculo que se hacen para determinar la resistencia de una sección\
+        \ \nsometida a Flexión Compuesta Recta? Qué diferencia existe frente a las vistas\
+        \ en Flexión \nSimple? \n8.9 \nQué son los planos límite? Para qué se emplean?\
+        \ Debe hacerse alguna modificación a los \nplanos dados en el CIRSOC 201-05\
+        \ si se desea describir completamente el comportamiento de \nuna sección? En\
+        \ caso afirmativo, cuál? \n8.10 \nComente sobre la utilidad de definir una deformación\
+        \ máxima para el acero y sobre la \nsensibilidad de los resultados frente al\
+        \ valor adoptado. \n8.11 \nCómo se calcula la resistencia nominal de una sección\
+        \ dada? \n8.12 \nCómo se obtienen los valores  Pn –  Mn a partir de los valores\
+        \  Pn – Mn? \n8.13 \nCómo se calcula el coeficiente “”? \n8.14 \nDibuje en\
+        \ un mismo gráfico las curvas  Pn –  Mn y  Pn – Mn. Comente conceptualmente\
+        \ las \ndiferencias de aspecto entre una y otra. \n8.15 \nQué límite superior\
+        \ se impone al axial máximo en las curvas anteriores? Cuál es su justificación?\
+        \ \n8.16 \nPor qué no puede afirmarse que la máxima armadura en flexión compuesta\
+        \ corresponde a la \ncombinación del esfuerzo axial máximo con el momento máximo?\
+        \ Apoye su respuesta con uno o \nmás gráficos. \n8.17 \nQué posibles caminos\
+        \ conoce para solucionar un problema de dimensionamiento en Flexión \nCompuesta\
+        \ Recta? \n8.18 \nQué posibles caminos conoce para solucionar un problema de\
+        \ verificación en Flexión Compuesta \nRecta? \n8.19 \nPara qué se usan y cómo\
+        \ se construyen los ábacos para Flexión Compuesta Recta? Qué \nlimitaciones\
+        \ presentan? \n8.20 \nIndique esquemáticamente cómo se emplea un ábaco para\
+        \ Flexión Compuesta Recta. \n8.21 \nIndique cómo puede construirse un diagrama\
+        \ de interacción simplificado que permita la \nverificación de una sección frente\
+        \ a la acción de diferentes solicitaciones. Cómo se puede saber \nsi una solicitación\
+        \ cuenta con seguridad suficiente? \n8.22 \nQué ventajas y desventajas presentan\
+        \ las armaduras asimétricas frente a las simétricas? \n8.23 \nPor qué puede\
+        \ afirmarse que, para determinadas solicitaciones, las armaduras simétricas\
+        \ \npueden resultar antieconómicas? Apoye su respuesta con un gráfico. \n8.24\
+        \ \nA qué se denomina “Teorema de Armado Óptimo”. Apoye su respuesta con un\
+        \ gráfico. \n8.25 \nA qué se denomina “Flexión Generalizada”? Para qué se emplea?\
+        \ Qué limitaciones tiene? Qué \nrelación tienen sus resultados con el “Teorema\
+        \ de Armado Óptimo”? \n8.26 \nCómo pueden calcularse armaduras asimétricas en\
+        \ el caso de flexión con tracción cuando la \ncarga se encuentra ubicada entre\
+        \ las armaduras? \n8.27 \nPuede decirse que dos arreglos de armaduras uno simétrico\
+        \ y otro asimétrico que resisten una \nmisma solicitación son equivalentes?\
+        \ Por qué? \n8.28 \nEn qué casos las armaduras simétricas son también óptimas?\
+        \ \n8.29 \nQué precaución hay que tomar si una sección circular está armada,\
+        \ por ejemplo, con seis \nbarras? \n8.30 \nSon válidas para secciones circulares\
+        \ y anulares  las hipótesis vistas para secciones \nrectangulares? \n8.31 \n\
+        Indique las expresiones de tres de las combinaciones de acciones de análisis\
+        \ obligatorio que \naparecen en el CIRSOC 201-05. Aclare el significado de cada\
+        \ uno de los términos. \n8.32 \nCuál es la definición de ductilidad que se emplea\
+        \ en hormigón armado? \n8.33 \nCuándo se dice que una sección no tiene ductilidad?\
+        \ \n" 
+      page: 29
+    - content:
+        " \n30 \n8.34 \nDibuje uno al lado del otro dos diagramas, uno de ellos\
+        \ un diagrama de interacción \ncorrespondiente a una sección con armaduras simétricas\
+        \ y el otro representando la ductilidad de \nla sección en función del esfuerzo\
+        \ axial. \n8.35 \nPor qué es deseable que las roturas sean dúctiles? Qué hace\
+        \ el CIRSOC 201-05 para alejarse \nde las roturas menos dúctiles? \n8.36 \n\
+        Qué dice el CIRSOC 201-05 respecto a las cuantías mínimas y máximas en Flexión\
+        \ Compuesta \nRecta? Qué criterios podrían emplearse? \nPREGUNTAS  REFERIDAS\
+        \  A  LOS  ÁBACOS  DEL  APÉNDICE \n8.37 \nQué precaución especial hay que tener\
+        \ al leer los ábacos en las zonas correspondientes a \nexcentricidades relativas\
+        \ “e/h” menores que aproximadamente 1/10? Por qué? \n8.38 \nCómo se grafica\
+        \ una excentricidad e/h = 0.23? \n8.39 \nCómo se grafica una excentricidad e/h=\
+        \ 10? \n8.40 \nCómo se grafica una excentricidad e/h = infinito? \n8.41 \nQué\
+        \ diferencia hay entre la cuantía que se lee en los ábacos correspondientes\
+        \ a armaduras \nsimétricas e iguales en todas las caras? \n" 
+      page: 30
+    - content:
+        " \n31 \nFLEXIÓN  COMPUESTA  RECTA  -  EJERCICIOS  RESUELTOS \nNOTA:\
+        \ En los ejercicios se indican procedimientos. No se llega a la adopción de\
+        \ barras comerciales. \nCasi la totalidad de los ejercicios que siguen están\
+        \ referidos a una sección de hormigón rectangular con \nlas siguientes características:\
+        \ \nMateriales: \nHormigón: \nf’c = 20 MPa \nAcero:  \nfy = 420 MPa \nGeometría:\
+        \ \nAncho:  \nb = 0.25 m \nAltura Total: \nh = 0.50 m \nRecubrimiento d’ = 0.05\
+        \ m (recubrimientos a ejes de armaduras) \nA partir de los datos anteriores\
+        \ pueden determinarse los siguientes valores que serán de utilidad a lo \nlargo\
+        \ de los desarrollos: \n1 = 0.85   \nd = 0.50 – 0.05 = 0.45 m \nDistancia entre\
+        \ armaduras = 0.45 – 0.05 = 0.40 m \nArmadura mínima como columna: \nAs total\
+        \ = 0.01 x 25 x 50 = 12.50 cm2 \nArmadura mínima como tirante:  \nAs total =\
+        \ 25 x 50 x 201/2 / (2 x 420) = 6.65 cm2 \nArmadura mínima como viga: \nAs =\
+        \ 1.4 x 25 x 45 / 420 = 3.75 cm2 \nd’/h = 0.05/0.50 = 0.10 por lo que corresponde\
+        \ el uso de ábacos para d’ = 0.10 h \npu = Pu / (b h f’c) = Pu / 2500 \n(el\
+        \ axial debe estar expresado en kN) \nmu = Mu / (b h2 f’c) = Mu / 1250  \n(el\
+        \ momento debe estar expresado en kNm) \n1) \nCálculo de Armaduras Simétricas\
+        \ mediante el uso de ábacos \nAl consignar los datos también se agregan los\
+        \ resultados obtenidos mediante el uso de un programa de \ncomputación. A estos\
+        \ valores se los denomina “exactos” y se los emplea luego para calcular el “error”\
+        \ de \nlos resultados obtenidos. \nDatos  \n1 \n2 \n3 \n4 \n5 \n6 \n7 \nPu (kN)\
+        \ \n1550 \n775 \n-250 \n-250 \n1100 \n560 \n495 \nMu (kNm) \n30 \n30 \n30 \n\
+        200 \n200 \n508 \n625 \nAs = A’s (cm2) \nValor “exacto” \n10.62 \n0.00 \n5.07\
+        \ \n16.22 \n16.21 \n36.67 \n35.58 \nTabla 1 \nResolución \n1 \n2 \n3 \n4 \n\
+        5 \n6 \n7 \npu \n0.62 \n0.31 \n-0.10 \n-0.10 \n0.44 \n0.224 \n0.198 \nmu \n\
+        0.024 \n0.024 \n0.024 \n0.16 \n0.16 \n0.4064 \n0.50 \nw (del ábaco) \n0.17 \
+        \ (4) \n0.00   (5) \n0.09 \n0.27 \n0.27 \n0.63 \n0.6 \nAs = A’s (cm2) \nSegún\
+        \ ábaco \n10.12 \n0.00 \n5.36 \n16.07 \n16.07 \n37.50 \n35.71 \nError %   (1)\
+        \ \n-4.7 \n0 \n+5.7 \n-0.9 \n-0.9 \n+2.3 \n+0.4 \ne = Mu / Pu  (2) \n-0.12 \
+        \ (6) \n-0.80 \nAs = A’s (cm2) \nmìnima     (3) \n6.25 \n6.25 \n3.33 \n3.75\
+        \ \n6.25 \n3.75 \n3.75 \nAs = A’s (cm2) \nadoptada \n10.12 \n6.25 \n5.36 \n\
+        16.07 \n16.07 \n37.50 \n35.71 \nTabla 2 \n" 
+      page: 31
+    - content:
+        " \n32 \n(1) \nEn la tabla anterior el “Error %” es la diferencia porcentual\
+        \ entre el valor que se obtuvo mediante \nel uso del ábaco y el valor “exacto”\
+        \ dado por el programa. \n(2) \nLa excentricidad, en estos ejemplos, sólo se\
+        \ utiliza en los casos de flexotracción para saber si la \ncarga cae entre las\
+        \ armaduras o fuera de ellas de modo de establecer cual es la cuantía mínima\
+        \ a \nemplear. \n(3) \nLa cuantía mínima se estableció visualmente diferenciando\
+        \ por observación del diagrama si el \npunto representativo de la solicitación\
+        \ se encontraba “por encima” o “por debajo” de la deformación es = \n0.002 y,\
+        \ en el caso de la flexotracción, verificando si la carga se encontraba entre\
+        \ las armaduras o fuera \nde ellas. \n(4) \nEn este caso el punto que representa\
+        \ a la solicitación se ubica en una zona del gráfico de muy \ndifícil lectura.\
+        \ Se debe prestar especial atención a leer la cuantía en los segmentos “horizontales”\
+        \ que \nson los que corresponden al diagrama recortado para considerar una excentricidad\
+        \ mínima. \n(5) \nCualquier punto que se encuentre sobre el borde de cuantía\
+        \ cero o bien entre dicho borde y el \neje vertical, corresponde a cuantía nula.\
+        \ \n(6) \nCualquier carga de tracción cuya excentricidad no supere -0.20m caerá\
+        \ entre de las armaduras \n2) \nDeterminar el valor de Pu por medio de ábacos\
+        \ cuando As = A’s = 6.03 cm2 y e = 0.23 m \nLa excentricidad relativa vale:\
+        \ e / h = mu / pu = 0.23 / 0.50 = 0.46 \nLa cuantía vale: \nw = 6.03 x 420 /\
+        \ (20 x 25 x 50) = 0.101 \nTrazando una recta entre el origen de coordenadas\
+        \ y, por ejemplo,  pu = 1 y mu = 0.46 y buscando su \nintersección con la curva\
+        \ con valor de cuantía 0.10 se obtiene: pu = 0.25 \nResulta entonces: \nPu =\
+        \ 0.25 x 2500 = 625 kN \nSi se lo calcula con un programa se llega a Pu = 644\
+        \ kN, es decir, que el error sería de -3%.  \n3) \nDeterminar el valor de Mu\
+        \ por medio de ábacos cuando Pu = 1700 kN y As = A’s = 14.73 cm2 \nCon los valores\
+        \ anteriores resulta:     \npu = 0.68   ;   w = 0.247 \nDel ábaco resulta: \n\
+        mu = 0.075  es decir  Mu = 0.075 x 1250 = 93.75 kNm \nSi se lo calcula con un\
+        \ programa se llega a Mu = 94.0 kNm, es decir, que el error sería de -0.3%.\
+        \ \nSi el valor del esfuerzo axial hubiera sido sólo ligeramente mayor se habría\
+        \ entrado en la zona en la que \nla curva de cuantía se hace horizontal y sólo\
+        \ podría decirse que el momento podría ser menor o igual a \nun determinado\
+        \ valor que, para este caso, sería aproximadamente igual a 0.07 x 1250 = 87.5\
+        \ kNm. \n3) \nUtilizando los datos del Ejercicio 1 calcular analíticamente armaduras\
+        \ asimétricas. \nComparar los valores obtenidos con los del Ejercicio 1 y comentar\
+        \ \nResulta útil calcular previamente algunos valores que ya son conocidos del\
+        \ cálculo a Flexión Simple: \nkc lim = c lim/d = 3/8       ;       ka lim =\
+        \ a lim/d = 3 1/8 = 3 x 0.85 / 8 = 0.319 \nPara la profundidad límite del eje\
+        \ neutro se tendrán los siguientes valores de fuerza y momento \naportados por\
+        \ el hormigón: \nFc = 0.85 x f’c x b x d x ka lim = 609.61 kN \nMc = Fc x d\
+        \ x (1 – ka lim/2) = 230.60 kN \nPara equilibrar Fc se necesita una armadura\
+        \ traccionada igual: a 609.61 / 42 = 14.51 cm2 \nPor otra parte, dado que, si\
+        \ el problema tiene solución se tratará de roturas dúctiles, corresponde \n\
+        adoptar:  = 0.90 \n" 
+      page: 32
+    - content:
+        " \n33 \nPor otra parte, para tener en cuenta el efecto del hormigón\
+        \ desalojado por la armadura comprimida, su \ntensión efectiva se calculará\
+        \ como:  \nf’s = fy – 0.85 f’c = 420 – 0.85 x 20 = 403 MPa \nResolución \n1\
+        \ \n2 \n3 \n4 \n5 \n6 \n7 \nPn (kN) \n1722.22 \n861.11 \n-277.78 \n-277.78 \n\
+        1222.22 \n622.22 \n550.00 \nMn (kNm) \n33.33 \n33.33 \n33.33 \n222.22 \n222.22\
+        \ \n564.44 \n694.44 \ne = Mn / Pn (m) \n0.019 \n0.039 \n-0.12  \n-0.80 \n0.182\
+        \ \n0.907 \n1.263 \neR=e + 0.20 (m) \n0.219 \n0.239 \n0.08 \n-0.60 \n0.382 \n\
+        1.107 \n1.463 \nMnR = Pn eR \n377.78 \n205.56 \n(1) \n166.67 \n466.67 \n688.89\
+        \ \n804.44 \nmnR \n0.438 \n0.239 \n(1) \n0.194 \n0.542 \n0.800 \n0.934 \nkaR\
+        \  \n0.651 \n0.277 \n(1) \n0.217 \n(3) \n(3) \n(3) \nka \n0.319 \n0.277 \n(1)\
+        \ \n0.217 \n0.319 \n0.319 \n0.319 \nM (kNm) \n147.18 \n----- \n(1) \n0 \n236.07\
+        \ \n458.29 \n573.84 \nA’s (cm2) \n9.13 \n----- \n1.32 \n0 \n14.64 \n28.43 \n\
+        35.60 \nAsR (cm2) \n23.64 \n12.62 \n(1) \n9.89 \n28.56 \n41.79 \n48.67 \nAs\
+        \ (cm2)     \n-17.37  \n-7.88 \n5.29 \n16.51 \n-0.54 \n26.97 \n35.57 \nAs min\
+        \ (cm2) \n(2) \n(2) \n(4) \n3.75 \n(2) \n3.75 \n3.75 \nAs adoptado (cm2) \n\
+        (2) \n(2) \n(4) \n16.51 \n(2) \n26.97 \n35.57 \nTabla 3 \n(1)  \nLa fuerza cae\
+        \ entre las armaduras por lo que:   A’s = - Pn eR  / [(h - 2d’) fy] =   1.32\
+        \ cm2 \nAs = - Pn / fy - A’s =  5.29 cm2 \n(2) \nValores negativos de As indican\
+        \ que el método no es aplicable \n(3) \nEn estos casos el radicando es negativo.\
+        \ Esto debe tomarse como indicación de doble armadura \ny proseguir con el cálculo\
+        \ sobre esta hipótesis. \n(4) \nNo existe una armadura mínima en tracción para\
+        \ armaduras asimétricas. La armadura total sería \n6.61 cm2 mientras que la\
+        \ mínima total de tirantes es 6.65 cm2. \nComparaciones entre armaduras simétricas\
+        \ y asimétricas \n1 \n2 \n3 \n4 \n5 \n6 \n7 \nAstotal sim.(cm2) \n----- \n-----\
+        \ \n10.14 \n32.44 \n----- \n73.34 \n71.16 \nAstotal asim(cm2) \n----- \n-----\
+        \ \n6.61 \n16.51 \n----- \n55.40 \n71.17 \nDiferencia % \n----- \n----- \n-34.8%\
+        \ \n-49.1% \n----- \n-24.5% \n0% \nTabla 4 \nComo puede apreciarse, la diferencia\
+        \ puede ser significativa pero casi desaparece cuando para el caso \nde armaduras\
+        \ asimétricas ambas armaduras tienden a coincidir (ver Fascículo de Teoría).\
+        \ \n4) \nUtilizando los datos del Ejercicio 1 calcular analíticamente armaduras\
+        \ simétricas \nutilizando expresiones aproximadas. \nTener presente que, además\
+        \ de emplear las expresiones para el cálculo de “w” siempre debe \nchequearse\
+        \ la resistencia como columna con la expresión: \nw ≥ (pu/1.04 -0.425) / (1\
+        \ – 0.85 f’c / fy) = 1.002 pu -0.443 \nResolución \n1 \n2 \n3 \n4 \n5 \n6 \n\
+        7 \npu \n0.62 \n0.31 \n-0.10 \n-0.10 \n0.44 \n0.224 \n0.198 \nmu \n0.024 \n\
+        0.024 \n0.024 \n0.16 \n0.16 \n0.406 \n0.50 \nw (expr.) \n0.081 \n< 0 \n0.087\
+        \ \n0.276 \n0.276 \n0.614 \n0.597 \nw (col.) \n0.178 \n< 0 \n----- \n----- \n\
+        < 0 \n< 0 \n< 0 \nw adoptado \n0.178 \n0 \n0.087 \n0.276 \n0.276 \n0.614 \n\
+        0.597 \nAs = A’s (cm2) \n10.61 \n0 \n5.18 \n16.43 \n16.43 \n36.55 \n35.54 \n\
+        Error %   (1) \n0 \n0 \n2.2% \n1.3% \n1.4% \n-0.3%. \n-0.1% \nTabla 5 \n" 
+      page: 33
+    - content:
+        " \n34 \nPara hacer las comparaciones con las cuantías mínimas puede\
+        \ adoptarse la de compresión si pu \n≥ 0.24 y la de flexión para los restantes\
+        \ casos que presenten esfuerzos de compresión. Para los casos \nde tracción\
+        \ podría valer también la cuantía mínima de flexión salvo que la carga caiga\
+        \ entre las \narmaduras en cuyo caso habría que aplicar la de tracción. \n5)\
+        \ \nTrazar diagramas de interacción aproximados para las armaduras simétricas\
+        \ “exactas” del \nCaso 6 del Ejercicio 1 y para las armaduras asimétricas calculadas\
+        \ para el Caso 6 del \nEjercicio 3. Ubicar en el gráfico la solicitación empleada\
+        \ para el cáluclo de armaduras. \no \nEn la tabla siguiente las deformaciones\
+        \ negativas indican tracciones. \no \nLos valores en negrita y subrayados son\
+        \ impuestos. El resto son calculados en base a ellos. \no \nCuando una armadura\
+        \ se encuentre comprimida, se descontará de su tensión el valor 0.85 f`c \n\
+        para tener en cuenta el hormigón comprimido desalojado por dicha armadura. \n\
+        o \nEn la tabla se ha denominado “ec” a la excentricidad de la fuerza de compresión\
+        \ en el hormigón \nrespecto al centro de gravedad de la sección. \nPunto \n\
+        c \ns \n's \nc (m) \na (m) \nfs \n(MPa) \nf’s \n(MPa) \nec (m) \n\n1 \n\
+        0.003 \n0.003 \n0.003 \n∞ \n0.5000 \n403 \n403 \n0.00 \n0.65 \n2 \n0 \n0.0027\
+        \ \n0.450 \n0.3825 \n0 \n403 \n0.0588 \n0.65 \n3 \n-0.0021 \n0.0024 \n0.265\
+        \ \n0.2250 \n-420 \n403 \n0.1375 \n0.65 \n4 \n-0.005 \n0.0021 \n0.169 \n0.1434\
+        \ \n-420 \n403 \n0.1783 \n0.90 \n5 \n-0.10 \n-0.0085 \n0.013 \n0.0111 \n-420\
+        \ \n-420 \n0.2445 \n0.90 \n6 \n---- \n-0.10 \n-0.10 \n∞ \n----- \n-420 \n-420\
+        \ \n----- \n0.90 \nTabla 6 \nPara las armaduras simétricas del Ejercicio 1-6\
+        \ (As = A`s = 36.67 cm2) \nPunto \nF’c \n(kN) \nMc \n(kNm) \nF’s \n(kN) \nM’s\
+        \ \n(kNm) \nFs \n(kN) \nMs \n(kNm) \nPn \n(kN) \nMn \n(kNm) \nPu \n(kN) \nMu\
+        \ \n(kNm) \n1 \n2125.0 \n0.0 \n1477.8 \n295.6 \n1477.8 \n-298.6 \n5080.6 \n\
+        0 \n3302.4 \n0 \n2 \n1625.6 \n95.6 \n1477.8 \n295.6 \n0 \n0 \n3103.4 \n391.2\
+        \ \n2017.2 \n254.3 \n3 \n956.3 \n131.5 \n1477.8 \n295.6 \n-1540.1 \n308.0 \n\
+        894.0 \n735.1 \n581.1 \n477.82 \n4 \n609.6 \n108.7 \n1477.8 \n295.6 \n-1540.1\
+        \ \n308.0 \n547.3 \n712.3 \n492.6 \n641.07 \n5 \n47.2 \n11.5 \n-1540.1 \n-308.0\
+        \ \n-1540.1 \n308.0 \n-3033.0 \n11.5 \n-2729.7 \n10.4 \n6 \n0 \n0 \n-1540.1\
+        \ \n-308.0 \n-1540.1 \n308.0 \n-3080.2 \n0 \n-2772.2 \n0 \nTabla 7 \nPara las\
+        \ armaduras asimétricas del Ejercicio 3-6 (As =   26.97 cm2 ; A`s = 28.43 cm2)\
+        \ \nPunto \nF’c \n(kN) \nMc \n(kNm) \nF’s \n(kN) \nM’s \n(kNm) \nFs \n(kN) \n\
+        Ms \n(kNm) \nPn \n(kN) \nMn \n(kNm) \nPu \n(kN) \nMu \n(kNm) \n1 \n2125.0 \n\
+        0.0 \n1145.7 \n229.1 \n1086.9 \n-217.4 \n4357.4 \n11.7 \n2832.4 \n7.6 \n2 \n\
+        1625.6 \n95.6 \n1145.7 \n229.1 \n0 \n0 \n2771.3 \n324.7 \n1801.3 \n211.1 \n\
+        3 \n956.3 \n131.5 \n1145.7 \n229.1 \n-1132.7 \n226.5 \n969.3 \n587.1 \n630.0\
+        \ \n381.6 \n4 \n609.6 \n108.7 \n1145.7 \n229.1 \n-1132.7 \n226.5 \n622.6 \n\
+        564.3 \n560.3 \n507.9 \n5 \n47.2 \n11.5 \n-1194.1 \n-238.8 \n-1132.7 \n226.5\
+        \ \n-2279.6 \n-0.8 \n-2051.6 \n-0.7 \n6 \n0 \n0 \n-1194.1 \n-238.1 \n-1132.7\
+        \ \n226.5 \n-2326.8 \n-11.6 \n-2094.1 \n-10.4 \nTabla 8 \nLa solución simétrica\
+        \ tiene un tope de compresión de:  \nPumax = 0.65 x 0.80 x (0.85 x 20.000 x\
+        \ 0.25 x 0.50 + 2 x 36.67 x (42 – 0.85 x 2)) = 2641.9 kN \nMientras que la solución\
+        \ asimétrica tiene un tope de compresión de: \nPumax = 0.65 x 0.80 x (0.85 x\
+        \ 20.000 x 0.25 x 0.50 + (28.43+26.97) x (42 – 0.85 x 2)) = 2266.0 kN \nEn el\
+        \ gráfico puede apreciarse que ambos diagramas, el de armadura simétrica y el\
+        \ de asimétrica, \ncomparten solamente un punto: el representativo de las solicitaciones\
+        \ empleadas para el \ndimensionamiento de las armaduras. \n" 
+      page: 34
+    - content:
+        " \n35 \n5) \nCalcular la armadura de la siguiente sección circular:\
+        \ \nMateriales: \nHormigón: \nf’c = 20 MPa \nAcero:  \nfy = 420 MPa \nGeometría:\
+        \ \nDiámetro \nD = 0.80 m    (área Ac = 0.50 m2) \nRecubrimiento d’ = 0.07 m\
+        \ (recubrimiento a ejes de armaduras) \nEl programa de cálculo de solicitaciones\
+        \ ha dado como resultado: \nPu =  5100 kN \nMux =  408 kNm \nMuy =  517 kNm\
+        \ \nEl hecho que la sección circular tenga infinitos ejes de simetría (si hay\
+        \ un número suficientemente \ngrande de barras) permite trabajar con un momento\
+        \ flector que resulta de la composición vectorial de los \ndos momentos ortogonales\
+        \ dados como dato. De esta forma: \nMu =  658.6 kNm \nLa relación d’/D = 0.07/0.80\
+        \ = 0.0875 no coincide con la de los ábacos disponibles. Se procederá \nentonces\
+        \ a calcular las armaduras para las relaciones 0.05 y 0.10 y calcular las armaduras\
+        \ aplicando una \nrelación lineal. \nPara poder ingresar a los ábacos se calculan\
+        \ los adimensionales: \npu =  5100 / (0.50 x 20000) = 0.51 \nmux =  658.6 /\
+        \ (0.50 x 0.80 x 20000) = 0.082 \nCon los valores anteriores se ingresa a los\
+        \ gráficos con relaciones 0.05 y 0.10 obteniéndose las \nsiguientes cuantías:\
+        \ \nw (0.05) = 0.36 \nw (0.10) = 0.40 \nInterpolando: \nw = 0.36 + (0.40 – 0.36)\
+        \ x (0.0875 – 0.05) / (0.10 – 0.05) = 0.39 \nResultando: \nAs total = 0.39 x\
+        \ 0.5 x 20 x 10000 / 420 = 92.9 cm2   ( = cuantía geométrica = 0.019) \n" 
+      page: 35
+    - content:
+        " \n36 \nBIBLIOGRAFÍA \n(1) \nMacGregor J and Wight J, “Reinforced Concrete:\
+        \ Mechanics and Design (6th Edition)”, \nPrentice Hall, 2012 \n(2) \nNilson\
+        \ Arthur H., “Diseño de Estructuras de Concreto”, McGraw-Hill, 1999 \n(3) \n\
+        EHE, Instrucción de Hormigón Estructural, ICCE, LEYNFOR, 1999 \n(4) \nE. Hernández-Montes\
+        \ & L. M. Gil-Martín & M. Pasadas-Fernández & M. Aschheim;”Theorem \nof optimal\
+        \ reinforcement for reinforced concrete cross sections”; Structural and \nMultidisciplinary\
+        \ Optimization; November 2008, Volume 36, Issue 5, pp 509-521 \n(5) \nAscheim,\
+        \ M; Hernández-Montes, E and Gil-Martín, L; “Optimal Domains for Flexural and\
+        \ \nAxial Loading”, ACI Structural Journal/November-December 2008 \n(6) \nBrondum-Nielsen,\
+        \ T; “Ultimate Flexural Capacity of Circular and Annular Cracked Concrete \n\
+        Sections”; ACI Structural Journal, July-August 1988 \n" 
+      page: 36
+    - content:
+        " \n37 \nAPÉNDICE \n Ábacos \npara \nel \ndimensionamiento \nde \narmaduras\
+        \ \nsimétricas en secciones rectangulares para f’c ≤ 30 MPa y \nfy = 420 MPa\
+        \ \n Ábacos para el dimensionamiento de armaduras iguales \nen las cuatro caras\
+        \ en secciones rectangulares para f’c ≤ \n30 MPa y fy = 420 MPa \n Ábacos para\
+        \ el dimensionamiento de armaduras en \nsecciones circulares para f’c ≤ 30 MPa\
+        \ y fy = 420 MPa \n" 
+      page: 37
+    - content: " \n38 \n" 
+      page: 38
+    - content: " \n39 \n" 
+      page: 39
+    - content: " \n40 \n" 
+      page: 40
+    - content: " \n41 \n" 
+      page: 41
+    - content: " \n42 \n" 
+      page: 42
+    - content: " \n43 \n" 
+      page: 43
+    - content: " \n44 \n" 
+      page: 44
+    - content: " \n45 \n" 
+      page: 45
+    - content: " \n46 \n" 
+      page: 46

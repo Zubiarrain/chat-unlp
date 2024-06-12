@@ -2,6 +2,7 @@
 
 import path from "path";
 import fs from "fs";
+import yaml from 'js-yaml';
 
 
 export const getHormigonArmadoContext = async () => {
@@ -10,4 +11,12 @@ export const getHormigonArmadoContext = async () => {
     const context = JSON.parse(fileContent);
 
     return context
+}
+
+export const getHormigonArmadoContextYAML = async () => {
+    const filePath = path.join(process.cwd(), 'src', 'data', 'document_data.yaml');
+    const datos = fs.readFileSync(filePath, 'utf8');
+    //const context = yaml.load(datos)
+
+    return datos
 }

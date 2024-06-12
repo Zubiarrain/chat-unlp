@@ -1,11 +1,12 @@
 "use client"
 
-import { Content, Part } from '@google/generative-ai';
 import React, { useState, useEffect, useRef } from 'react';
+import { Content, Part } from '@google/generative-ai';
+import { getResponse } from '@/utils/get_response';
 import Markdown from 'react-markdown'
 import remarkMath from 'remark-math'
 import remarkGfm from 'remark-gfm'
-import { getResponse } from '@/utils/get_response';
+import rehypeRaw from 'rehype-raw'
 
 
 /* marked.setOptions({
@@ -99,7 +100,7 @@ export const Chat = ({chatId, api}:ChatT) => {
     
   };
 
-  
+  let md = `<img src="/flexion-compuesta-recta/Flexion Compuesta Recta-2019_page2_img1.png" alt="Imagen"></img>`
 
   return (
     <div className="flex flex-col h-[600px] lg:h-[500px] w-full min-w-md mx-auto bg-white shadow-md rounded-lg overflow-hidden">
@@ -107,7 +108,11 @@ export const Chat = ({chatId, api}:ChatT) => {
         {messages.map((message, index) => (
           <div key={index} className={`flex ${message.role === 'user' ? 'justify-end' : 'justify-start'} mb-2 `}>
             <div className={`p-2 rounded-t-lg max-w-[70%] text-wrap ${message.role === 'user' ? 'bg-blue-500 text-white rounded-bl-lg': 'bg-gray-200 text-black rounded-br-lg'}`}>
-                <Markdown remarkPlugins={[remarkGfm,remarkMath]}>{message.parts[0].text}</Markdown>
+                <Markdown 
+                remarkPlugins={[remarkGfm,remarkMath]}
+                rehypePlugins={[rehypeRaw]}>
+                  {message.parts[0].text}
+                </Markdown>
             </div>
           </div>
         ))}
