@@ -3,7 +3,7 @@ import { GoogleGenerativeAI, Content } from "@google/generative-ai";
 import { getHormigonArmadoContext } from '@/utils/get_context';
 
 async function getMCResponse(question: string, conversationHistory: Content[]) {
-    const MODEL = "gemini-1.5-flash"
+    const MODEL = "gemini-1.5-pro"
     const CONTEXT = await getHormigonArmadoContext()
     const INSTRUCTION = `
     Act as a chatbot that generates complex multiple-choice questions from a given document. The bot will present one question at a time to the user, evaluate their response, provide feedback, and additional information. After that, the bot will proceed to the next question.
