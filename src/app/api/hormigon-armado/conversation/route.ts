@@ -6,7 +6,7 @@ function insertarImagenEnTexto(texto:string) {
     const patronImagen = /\[([^\[\]]+\.(?:png|jpg|jpeg|gif))\]/g;
 
     return texto.replace(patronImagen, (match, rutaImagen) => {
-        return `<img src="/${rutaImagen}" alt="Imagen">`;
+        return `<img src="/${rutaImagen}" alt="Imagen" className='h-48 w-auto object-contain'>`;
     });
 }
 
@@ -22,7 +22,7 @@ async function getConversationResponse(question: string, conversationHistory: Co
     1. Read each document's content.
     2. Identify important information related to the user's question.
     3. Respond clearly and concisely using Markdown to provide an informative answer in Spanish.
-    4. Whenever necessary it calls a figure related to the response as follows: : [figure_path]
+    4. Whenever necessary it calls a figure related to the response as follows: [figure_path]
     5. Always end the message by mentioning the document name and the pages where the user can find more information.
 
     You must read these documents to answer the user's questions:

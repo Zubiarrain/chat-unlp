@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-[calc(100vh-6rem)] h-[calc(100vh-6rem)] flex flex-col gap-4 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
+    <div className="h-screen max-h-[calc(100vh-6rem)] flex flex-col gap-2 lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
     {/* IMAGE CONTAINER */}
     <div className="h-1/2 lg:h-full lg:w-2/6 relative">
       <Image 
@@ -26,7 +26,7 @@ export default function Home() {
       Facilitando el aprendizaje y promoviendo la curiosidad intelectual.
       </p>
       {/* BUTTONS */}
-      <div className="w-full flex gap-4">
+      <div className="w-full flex gap-4 mb-2">
         <Link href="/chats">
         <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">Explorar Chats</button>
         </Link>

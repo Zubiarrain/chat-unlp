@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className='h-full flex items-center justify-between px-4 sm:px-8 md:px-10 lg:px-20 xl:px-40 text-black text-xl'>
 
       {/* LINKS */}
-      <div className='flex gap-4 w-full mr-10 text-sm md:text-xl'>
+      <div className='flex gap-4 w-full mr-10 text-sm md:text-base'>
         {links.map((link, index) =>(
           <NavLink link={link} key={index}/>
         ))}

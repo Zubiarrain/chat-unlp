@@ -26,14 +26,18 @@ const ChatPage: React.FC = () => {
   }
 
   return (
-    <div className="flex flex-col items-center">
-      <h1 className="text-sm lg:text-xl font-bold mt-1 mb-1">{currentChat.materia + ' - ' + currentChat.type}</h1>
+    <div className="flex flex-col items-center ">
+      {/* <h1 className="text-sm lg:text-xl font-bold mt-1 mb-1">{currentChat.materia + ' - ' + currentChat.type}</h1>
       <div className='flex flex-col justify-start w-full min-w-md max-w-4xl pl-4'>
         <p className='m-0 text-sm'>* Tiende a alucinar cuando la conversación se vuelve extensa.</p>
         <p className='m-0 text-sm'>* Puede mostrar imágenes incorrectas.</p>
-      </div>
-      <div className="flex flex-1 w-full min-w-md max-w-4xl p-4">
-        <Chat chatId={currentChat.id} api={currentChat.api}/>
+      </div> */}
+      <div className="flex flex-1 w-full min-w-md min-h-[calc(100vh-3rem)]">
+        <Chat 
+        chatId={currentChat.id} 
+        api={currentChat.api}
+        chatName={currentChat.materia + ' - ' + currentChat.type}
+        />
       </div>
     </div>
   );
