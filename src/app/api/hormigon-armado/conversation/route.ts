@@ -31,7 +31,7 @@ async function getConversationResponse(question: string, conversationHistory: Co
     const API_KEY = process.env.NEXT_PUBLIC_GOOGLE_API_KEY || ""; // Usa variables de entorno
     const genAI = new GoogleGenerativeAI(API_KEY);
     const llm = genAI.getGenerativeModel({ model: MODEL, systemInstruction: INSTRUCTION });
-    const retryCount = 10
+    const retryCount = 6
 
     for (let attempt = 1; attempt <= retryCount; attempt++) {
         try {
@@ -42,8 +42,8 @@ async function getConversationResponse(question: string, conversationHistory: Co
             return response;
         } catch (error: any) {
             if (error.message.includes("429 Too Many Requests") && attempt < retryCount) {
-                console.log(`Attempt ${attempt} failed. Retrying in 5 seconds...`);
-                await new Promise(resolve => setTimeout(resolve, 5000)); // Espera 2 segundos antes de reintentar
+                console.log(`Attempt ${attempt} failed. Retrying in 3 seconds...`);
+                await new Promise(resolve => setTimeout(resolve, 3000)); // Espera 2 segundos antes de reintentar
             } else {
                 console.log(error);
                 return "Ocurrió un error, no se pudo procesar tu consulta";
