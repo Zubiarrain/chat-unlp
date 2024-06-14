@@ -1,14 +1,6 @@
 import { NextResponse } from 'next/server';
 import { GoogleGenerativeAI, Content } from "@google/generative-ai";
-import { getHormigonArmadoContext, getHormigonArmadoContextYAML } from '@/utils/get_context';
-
-function insertarImagenEnTexto(texto:string) {
-    const patronImagen = /\[([^\[\]]+\.(?:png|jpg|jpeg|gif))\]/g;
-
-    return texto.replace(patronImagen, (match, rutaImagen) => {
-        return `<img src="/${rutaImagen}" alt="Imagen" className='h-48 w-auto object-contain'>`;
-    });
-}
+import { getHormigonArmadoContextYAML } from '@/utils/get_context';
 
 async function getConversationResponse(question: string, conversationHistory: Content[]) {
     const MODEL = "gemini-1.5-pro-latest"
@@ -35,20 +27,31 @@ async function getConversationResponse(question: string, conversationHistory: Co
 
     for (let attempt = 1; attempt <= retryCount; attempt++) {
         try {
-            const chat = llm.startChat({ history: conversationHistory, generationConfig: { temperature: 0.2 } });
-            const result = await chat.sendMessageStream(question);
             const stream = new ReadableStream({
-                async start(controller) {
+            async start(controller) {
+                try {
+                    // Aquí se inicia el proceso de la conversación
+                    const chat = llm.startChat({ history: conversationHistory, generationConfig: { temperature: 0.2 } });
+                    const result = await chat.sendMessageStream(question);
+
+                    const keepAlive = setInterval(() => {
+                        controller.enqueue("");
+                    }, 3000);  // Enviar un espacio en blanco cada 3 segundos para mantener la conexión activa
+
                     for await (const chunk of result.stream) {
-                        const chunkText = chunk.text();
-                        controller.enqueue(chunkText);
+                        controller.enqueue(chunk.text());
                     }
+
+                    clearInterval(keepAlive);
                     controller.close();
-                },
-                cancel() {
-                    console.log('Stream cancelled');
+                } catch (error) {
+                    controller.error(error);
                 }
-            });
+            },
+            cancel() {
+                console.log('Stream cancelled');
+            }
+        });
             return stream;
         } catch (error: any) {
             if (error.message.includes("429 Too Many Requests") && attempt < retryCount) {
