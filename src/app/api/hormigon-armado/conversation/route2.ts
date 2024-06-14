@@ -11,7 +11,7 @@ function insertarImagenEnTexto(texto:string) {
 }
 
 async function getConversationResponse(question: string, conversationHistory: Content[]) {
-    const MODEL = "gemini-1.5-pro-latest"
+    const MODEL = "gemini-1.5-pro"
     const CONTEXT = await getHormigonArmadoContextYAML()
     const INSTRUCTION = `
     ### INSTRUCTION ###
@@ -36,20 +36,10 @@ async function getConversationResponse(question: string, conversationHistory: Co
     for (let attempt = 1; attempt <= retryCount; attempt++) {
         try {
             const chat = llm.startChat({ history: conversationHistory, generationConfig: { temperature: 0.2 } });
-            const result = await chat.sendMessageStream(question);
-            const stream = new ReadableStream({
-                async start(controller) {
-                    for await (const chunk of result.stream) {
-                        const chunkText = chunk.text();
-                        controller.enqueue(chunkText);
-                    }
-                    controller.close();
-                },
-                cancel() {
-                    console.log('Stream cancelled');
-                }
-            });
-            return stream;
+            const result = await chat.sendMessage(question);
+            let response = result.response.text();
+            response = insertarImagenEnTexto(response);
+            return response;
         } catch (error: any) {
             if (error.message.includes("429 Too Many Requests") && attempt < retryCount) {
                 console.log(`Attempt ${attempt} failed. Retrying in 5 seconds...`);
@@ -65,18 +55,16 @@ async function getConversationResponse(question: string, conversationHistory: Co
 
 export async function POST(req: Request) {
     if (req.method === 'POST') {
-        const { question, conversationHistory } = await req.json();
+        const { question, conversationHistory } = await req.json()
 
         try {
-            const stream = await getConversationResponse(question, conversationHistory);
-            return new Response(stream, {
-                headers: { 'Content-Type': 'text/plain' }
-            });
+            const response = await getConversationResponse(question, conversationHistory);
+            return NextResponse.json({ response });
         } catch (error) {
-            console.error("Error:", error);
-            return NextResponse.json({ error: 'Error al procesar la solicitud' });
+            console.error("Error:", error); // Log detallado del error
+            return NextResponse.json({ error:'Error al procesar la solicitud' });
         }
     } else {
-        return NextResponse.json({ error: 'Método no permitido' });
+        return NextResponse.json({ error:'Método no permitido' });
     }
 }

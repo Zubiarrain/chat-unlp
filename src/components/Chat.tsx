@@ -60,16 +60,30 @@ export const Chat = ({chatId, api, chatName}:ChatT) => {
         parts: [{text:input}],
       };
 
-      const updatedMessages = [...messages, userMessage];
+      let updatedMessages = [...messages, userMessage];
       setMessages(updatedMessages);
       setInput('');
 
       try {
         const conversationHistory: Content[] = messages.map(({ id, ...rest }) => rest);
-        const assistantResponse = await getResponse(input, conversationHistory, api);
-        const modelMessage: Message = { id: chatId, role: 'model', parts: [{text:assistantResponse}] };
-
-        setMessages([...updatedMessages, modelMessage]);
+        const fullResponse = await getResponse(
+          input,
+          conversationHistory,
+          api,
+          (chunk) => {
+            const lastMessage = [...updatedMessages].pop()
+            const modelMessage: Message = { id: chatId, role: 'model', parts: [{text:chunk}] };
+            if(lastMessage && lastMessage.role == 'model'){
+              let newMessages = [...updatedMessages]
+              newMessages[newMessages.length-1] = modelMessage
+              setMessages([...newMessages])
+            }else{
+              setMessages([...updatedMessages, modelMessage])
+              updatedMessages = [...updatedMessages, modelMessage]
+            }
+          }
+        );
+        const modelMessage: Message = { id: chatId, role: 'model', parts: [{text:fullResponse}] };
 
         if (typeof window !== 'undefined') {
           localStorage.setItem(chatName, JSON.stringify([...messages, userMessage,modelMessage]));
