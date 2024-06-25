@@ -8,13 +8,6 @@ import remarkMath from 'remark-math'
 import remarkGfm from 'remark-gfm'
 import rehypeRaw from 'rehype-raw'
 
-
-/* marked.setOptions({
-  breaks: true, // Para permitir saltos de línea con una sola línea nueva
-  gfm: true, // Para habilitar GitHub Flavored Markdown (opcional)
-  
-}); */
-
 type Message = {
   id: string;
   role: 'user' | 'model';
@@ -24,10 +17,9 @@ type Message = {
 type ChatT = {
     chatId:string;
     chatName:string;
-    api:string;
 }
 
-export const Chat = ({chatId, api, chatName}:ChatT) => {
+export const Chat = ({chatId, chatName}:ChatT) => {
   const initialMessage: Message[] = [];
   const [messages, setMessages] = useState<Message[]>(initialMessage);
   const [input, setInput] = useState('');
@@ -65,11 +57,11 @@ export const Chat = ({chatId, api, chatName}:ChatT) => {
       setInput('');
 
       try {
-        const conversationHistory: Content[] = messages.map(({ id, ...rest }) => rest);
+        const conversationHistory: Content[] = updatedMessages.map(({ id, ...rest }) => rest);
         const fullResponse = await getResponse(
+          chatId,
           input,
           conversationHistory,
-          api,
           (chunk) => {
             const lastMessage = [...updatedMessages].pop()
             const modelMessage: Message = { id: chatId, role: 'model', parts: [{text:chunk}] };

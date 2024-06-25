@@ -34,8 +34,7 @@ const ChatPage: React.FC = () => {
       </div> */}
       <div className="flex flex-1 w-full min-w-md min-h-[calc(100vh-3rem)]">
         <Chat 
-        chatId={currentChat.id} 
-        api={currentChat.api}
+        chatId={currentChat.id}
         chatName={currentChat.materia + ' - ' + currentChat.type}
         />
       </div>

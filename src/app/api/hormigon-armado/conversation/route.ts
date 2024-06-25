@@ -27,31 +27,20 @@ async function getConversationResponse(question: string, conversationHistory: Co
 
     for (let attempt = 1; attempt <= retryCount; attempt++) {
         try {
+            const chat = llm.startChat({ history: conversationHistory, generationConfig: { temperature: 0.2 } });
+            const result = await chat.sendMessageStream(question);
             const stream = new ReadableStream({
-            async start(controller) {
-                try {
-                    // Aquí se inicia el proceso de la conversación
-                    const chat = llm.startChat({ history: conversationHistory, generationConfig: { temperature: 0.2 } });
-                    const result = await chat.sendMessageStream(question);
-
-                    const keepAlive = setInterval(() => {
-                        controller.enqueue("");
-                    }, 3000);  // Enviar un espacio en blanco cada 3 segundos para mantener la conexión activa
-
+                async start(controller) {
                     for await (const chunk of result.stream) {
-                        controller.enqueue(chunk.text());
+                        const chunkText = chunk.text();
+                        controller.enqueue(chunkText);
                     }
-
-                    clearInterval(keepAlive);
                     controller.close();
-                } catch (error) {
-                    controller.error(error);
+                },
+                cancel() {
+                    console.log('Stream cancelled');
                 }
-            },
-            cancel() {
-                console.log('Stream cancelled');
-            }
-        });
+            });
             return stream;
         } catch (error: any) {
             if (error.message.includes("429 Too Many Requests") && attempt < retryCount) {

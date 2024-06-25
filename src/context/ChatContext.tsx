@@ -5,7 +5,6 @@ type Chat = {
   materia: string;
   type: string;
   image:string;
-  api:string;
 };
 
 type ChatContextType = {
@@ -18,8 +17,8 @@ const ChatContext = createContext<ChatContextType | undefined>(undefined);
 
 export const ChatProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [chats] = useState<Chat[]>([
-    {id:'1', materia:'Hormigón Armado', type:'Conversación',image:'/HAI.png', api:'/api/hormigon-armado/conversation'},
-    {id:'2', materia:'Hormigón Armado',type:'Multiple Choice', image:'/HAI.png', api:'/api/hormigon-armado/multiple-choice'},
+    {id:'1', materia:'Hormigón Armado', type:'Conversación',image:'/HAI.png'},
+    {id:'2', materia:'Hormigón Armado',type:'Multiple Choice', image:'/HAI.png'},
   ]);
   const [currentChat, setCurrentChat] = useState<Chat | null>(null);
 
