@@ -15,6 +15,7 @@ async function obtenerEndpointYToken() {
             throw new Error('Failed to fetch token');
         }
         const { token, endpoint } = await response.json();
+        console.log(token,endpoint)
         return {token, endpoint}
     } catch (error) {
         throw new Error('Failed to fetch token');
