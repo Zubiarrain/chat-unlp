@@ -19,6 +19,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [chats] = useState<Chat[]>([
     {id:'1', materia:'Hormigón Armado', type:'Conversación',image:'/HAI.png'},
     {id:'2', materia:'Hormigón Armado',type:'Multiple Choice', image:'/HAI.png'},
+    {id:'3', materia:'Aprovechamientos',type:'Conversación', image:'/HIDRAULICA.png'},
   ]);
   const [currentChat, setCurrentChat] = useState<Chat | null>(null);
 
