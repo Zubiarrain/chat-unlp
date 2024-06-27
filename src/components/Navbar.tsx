@@ -1,8 +1,8 @@
 "use client"
 
-import Link from 'next/link'
+
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React from 'react'
 import { LinkUrl } from '@/definitions/LinkUrl'
 import NavLink from './NavLink'
 
@@ -10,6 +10,7 @@ const links: LinkUrl[] = [
   {url:"/", title:"Home"},
   {url:"/chats", title:"Chats"},
   {url:"/contact", title:"Contacto"},
+  {url:"/api-key", title:"Api Key"},
 ]
 
 

@@ -1,4 +1,6 @@
 import { Content } from "@google/generative-ai";
+import { getApiKey } from "./getApiKey";
+
 
 function insertarImagenEnTexto(texto:string) {
     const patronImagen = /\[([^\[\]]+\.(?:png|jpg|jpeg|gif))\]/g;
@@ -22,17 +24,24 @@ async function obtenerEndpointYToken() {
 }
 
 // Función principal para obtener la respuesta del servidor
-export async function getResponse(id: string, question: string, conversationHistory: Content[], onChunk: (chunk: string) => void) {
+export async function getResponse(id: string, conversationHistory: Content[], onChunk: (chunk: string) => void) {
     try {
         const { token, endpoint } = await obtenerEndpointYToken();
+        const apiKey = await getApiKey()
+
+        if (!apiKey){
+            console.log('apikey', apiKey)
+            throw new Error('Debes guardar una Api Key');
+        }
+        
 
         const response = await fetch(endpoint, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Authorization': token
+                'Authorization': token,
             },
-            body: JSON.stringify({ id, question, conversationHistory }),
+            body: JSON.stringify({ id, conversationHistory, apiKey }),
         });
 
         if (response.ok && response.body) {

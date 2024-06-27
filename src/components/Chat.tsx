@@ -60,7 +60,6 @@ export const Chat = ({chatId, chatName}:ChatT) => {
         const conversationHistory: Content[] = updatedMessages.map(({ id, ...rest }) => rest);
         const fullResponse = await getResponse(
           chatId,
-          input,
           conversationHistory,
           (chunk) => {
             const lastMessage = [...updatedMessages].pop()
@@ -81,8 +80,10 @@ export const Chat = ({chatId, chatName}:ChatT) => {
           localStorage.setItem(chatName, JSON.stringify([...messages, userMessage,modelMessage]));
         }
 
-      } catch (error) {
-        console.error('Failed to send message:', error);
+      } catch (error:any) {
+          alert('Error al enviar mensaje, asegúrese de haber guardado una api key')
+          setMessages(initialMessage);
+          localStorage.setItem(chatName, JSON.stringify(initialMessage));
       }
     }
   };
