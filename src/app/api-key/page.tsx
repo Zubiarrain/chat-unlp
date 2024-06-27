@@ -21,9 +21,13 @@ export default function ApiKeyPage() {
 
   const handleFormSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const message = saveApiKey(apiKey)
+    const {state, message} = await saveApiKey(apiKey)
+    console.log(state)
+    if (state == 'success'){
+      setApiKeyExists(true)
+    }
+
     setMessage(message)
-    
   };
 
   return (

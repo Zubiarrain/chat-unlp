@@ -13,9 +13,10 @@ export const saveApiKey = (apiKey:string) => {
         httpOnly: true,
         sameSite: "strict",
         });
-        return 'Almacenado correctamente'
+        return {state:'success', message:'Almacenado correctamente'}
     } catch (error) {
         console.error("Error:", error);
-        return 'Error al almacenar Api Key'
+        return {state:'error', message:'Error al almacenar Api Key'}
+        
     }
 }
